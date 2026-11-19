@@ -1,0 +1,267 @@
+{
+  "itemId": "v1|940096609988|0",
+  "title": "3 Seater Chesterfield Sofa Couch Faux Leather In Antique Grey Ex-Display",
+  "shortDescription": "Excellent Ex-display condition This 3 seater Chesterfield sofa couch in antique grey faux leather is a luxurious addition to any living room. With a traditional Chesterfield design and wooden frame, this sofa exudes elegance and style. The foam filling provides comfort and support for adults, with a seat depth of 55 cm and an arm style that complements the classic look. The grey colour adds a touch of sophistication, making it a perfect choice for those who appreciate traditional furniture looks.",
+  "price": {
+    "value": "393.61",
+    "currency": "GBP"
+  },
+  "categoryPath": "Home, Furniture & DIY|Furniture|Sofas, Armchairs & Couches",
+  "categoryIdPath": "11700|3197|38208",
+  "condition": "New other (see details)",
+  "conditionId": "1500",
+  "itemLocation": {
+    "city": "Westbury",
+    "postalCode": "BA13 ***",
+    "country": "GB"
+  },
+  "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/cP0AAeSwUs9q-txn/s-l1600.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "additionalImages": [
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/44wAAeSwLEZq-txn/s-l1600.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/44EAAeSwMcFq-txn/s-l1600.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/4N8AAeSwy0lq-txn/s-l1600.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "color": "Grey",
+  "brand": "Unbranded",
+  "itemCreationDate": "2026-11-16T10:38:06.000Z",
+  "seller": {
+    "username": "nudesigns",
+    "feedbackPercentage": "100.0",
+    "feedbackScore": 159,
+    "sellerAccountType": "INDIVIDUAL"
+  },
+  "estimatedAvailabilities": [
+    {
+      "deliveryOptions": [
+        "SELLER_ARRANGED_LOCAL_PICKUP"
+      ],
+      "estimatedAvailabilityStatus": "IN_STOCK",
+      "estimatedAvailableQuantity": 1,
+      "estimatedSoldQuantity": 0,
+      "estimatedRemainingQuantity": 1
+    }
+  ],
+  "shipToLocations": {
+    "regionIncluded": [
+      {
+        "regionName": "United Kingdom",
+        "regionType": "COUNTRY",
+        "regionId": "GB"
+      }
+    ],
+    "regionExcluded": [
+      {
+        "regionName": "Afghanistan",
+        "regionType": "COUNTRY",
+        "regionId": "AF"
+      },
+      {
+        "regionName": "Libya",
+        "regionType": "COUNTRY",
+        "regionId": "LY"
+      },
+      {
+        "regionName": "Nauru",
+        "regionType": "COUNTRY",
+        "regionId": "NR"
+      },
+      {
+        "regionName": "Somalia",
+        "regionType": "COUNTRY",
+        "regionId": "SO"
+      },
+      {
+        "regionName": "Yemen",
+        "regionType": "COUNTRY",
+        "regionId": "YE"
+      },
+      {
+        "regionName": "Ukraine",
+        "regionType": "COUNTRY",
+        "regionId": "UA"
+      },
+      {
+        "regionName": "Iran",
+        "regionType": "COUNTRY",
+        "regionId": "IR"
+      },
+      {
+        "regionName": "Russian Federation",
+        "regionType": "COUNTRY",
+        "regionId": "RU"
+      }
+    ]
+  },
+  "returnTerms": {
+    "returnsAccepted": true,
+    "returnShippingCostPayer": "BUYER",
+    "returnPeriod": {
+      "value": 30,
+      "unit": "CALENDAR_DAY"
+    }
+  },
+  "localizedAspects": [
+    {
+      "type": "STRING",
+      "name": "Fill Material",
+      "value": "Foam"
+    },
+    {
+      "type": "STRING",
+      "name": "Item Length",
+      "value": "90 cm"
+    },
+    {
+      "type": "STRING",
+      "name": "Additional Parts Required",
+      "value": "No"
+    },
+    {
+      "type": "STRING",
+      "name": "Colour",
+      "value": "Grey"
+    },
+    {
+      "type": "STRING",
+      "name": "Brand",
+      "value": "Unbranded"
+    },
+    {
+      "type": "STRING",
+      "name": "Department",
+      "value": "Adults"
+    },
+    {
+      "type": "STRING",
+      "name": "Seating Capacity",
+      "value": "3"
+    },
+    {
+      "type": "STRING",
+      "name": "Type",
+      "value": "Sofa"
+    },
+    {
+      "type": "STRING",
+      "name": "Seat Depth",
+      "value": "55 cm"
+    },
+    {
+      "type": "STRING",
+      "name": "Assembly Required",
+      "value": "No"
+    },
+    {
+      "type": "STRING",
+      "name": "Item Height",
+      "value": "75 cm"
+    },
+    {
+      "type": "STRING",
+      "name": "Back Style",
+      "value": "Chesterfield"
+    },
+    {
+      "type": "STRING",
+      "name": "Style",
+      "value": "Traditional"
+    },
+    {
+      "type": "STRING",
+      "name": "Theme",
+      "value": "Traditional"
+    },
+    {
+      "type": "STRING",
+      "name": "Frame Material",
+      "value": "Wood"
+    },
+    {
+      "type": "STRING",
+      "name": "Arm Style",
+      "value": "Chesterfield"
+    },
+    {
+      "type": "STRING",
+      "name": "Room",
+      "value": "Living Room"
+    },
+    {
+      "type": "STRING",
+      "name": "Country of Origin",
+      "value": "China"
+    },
+    {
+      "type": "STRING",
+      "name": "Item Width",
+      "value": "200 cm"
+    },
+    {
+      "type": "STRING",
+      "name": "Upholstery Fabric",
+      "value": "Faux Leather"
+    }
+  ],
+  "topRatedBuyingExperience": false,
+  "buyingOptions": [
+    "FIXED_PRICE",
+    "BEST_OFFER"
+  ],
+  "itemWebUrl": "https://www.ebay.co.uk/itm/940096609988?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde99qgZ8NF11iKGOd3Y24h8wbRCVXrjO7%2Fbm%2BiYb7EnMbHNUsbqq4tHPb1pPzjmIx7jwKxzR0LGXWhAzCra0gvCPMn1l5Qtznbzstzn1%2B1M8MXEqV4sWnkU5wd3xNCYsnOuBbSCBN4odsWwUCQ3B0OyMKcTZta%2F0dfUgOGYxPfVKE%2FvxIB0GhBZ5aNXw0bO3Qb8%3D",
+  "description": "Excellent Ex-display condition <br><br>This 3 seater Chesterfield sofa couch in antique grey faux leather is a luxurious addition to any living room. With a traditional Chesterfield design and wooden frame, this sofa exudes elegance and style. The foam filling provides comfort and support for adults, with a seat depth of 55 cm and an arm style that complements the classic look. The grey colour adds a touch of sophistication, making it a perfect choice for those who appreciate traditional furniture looks.",
+  "paymentMethods": [
+    {
+      "paymentMethodType": "OTHER"
+    },
+    {
+      "paymentMethodType": "WALLET",
+      "paymentMethodBrands": [
+        {
+          "paymentMethodBrandType": "PAYPAL"
+        },
+        {
+          "paymentMethodBrandType": "APPLE_PAY"
+        }
+      ]
+    },
+    {
+      "paymentMethodType": "CREDIT_CARD",
+      "paymentMethodBrands": [
+        {
+          "paymentMethodBrandType": "VISA"
+        },
+        {
+          "paymentMethodBrandType": "MASTERCARD"
+        },
+        {
+          "paymentMethodBrandType": "DINERS_CLUB"
+        }
+      ]
+    }
+  ],
+  "immediatePay": false,
+  "enabledForGuestCheckout": false,
+  "eligibleForInlineCheckout": true,
+  "lotSize": 0,
+  "legacyItemId": "940096609988",
+  "priorityListing": true,
+  "adultOnly": false,
+  "categoryId": "38208",
+  "listingMarketplaceId": "EBAY_GB"
+}

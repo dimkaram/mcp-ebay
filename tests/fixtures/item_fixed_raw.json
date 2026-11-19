@@ -1,0 +1,1078 @@
+{
+  "itemId": "v1|920157680853|0",
+  "title": "🤍Nintendo Switch OLED Model 64GB Console -White Joy-Cons - Great Screen✅",
+  "shortDescription": "Wide adjustable rear kickstand holds firmly. Console Model: This is an official Nintendo Switch OLED Model (64GB), NOT a Nintendo Switch 2. Official Nintendo Switch OLED Model Console Tablet (HEG-001 / 64GB Internal Storage).",
+  "price": {
+    "value": "99.99",
+    "currency": "GBP"
+  },
+  "categoryPath": "Video Games & Consoles|Video Game Consoles",
+  "categoryIdPath": "1249|139971",
+  "condition": "Used",
+  "conditionId": "3000",
+  "itemLocation": {
+    "city": "Woodhall Spa",
+    "postalCode": "LN10 ***",
+    "country": "GB"
+  },
+  "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/1NsAAeSwrcdq~f~r/s-l1600.jpg",
+    "width": 1600,
+    "height": 1204
+  },
+  "additionalImages": [
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/zTYAAeSwzixq~gA5/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/zjsAAeSwMNlq~gA7/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/1kIAAeSwL7hq~gA9/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/1voAAeSwMcFq~gBA/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/0RYAAeSwtv1q~f~s/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/ULwAAeSweYhq~f~s/s-l1600.jpg",
+      "width": 1600,
+      "height": 1204
+    }
+  ],
+  "color": "White",
+  "brand": "Nintendo",
+  "itemCreationDate": "2026-11-18T19:45:09.000Z",
+  "seller": {
+    "username": "willsgamingvault",
+    "feedbackPercentage": "100.0",
+    "feedbackScore": 911,
+    "sellerAccountType": "INDIVIDUAL"
+  },
+  "mpn": "10007456",
+  "estimatedAvailabilities": [
+    {
+      "deliveryOptions": [
+        "SHIP_TO_HOME"
+      ],
+      "estimatedAvailabilityStatus": "IN_STOCK",
+      "estimatedAvailableQuantity": 1,
+      "estimatedSoldQuantity": 0,
+      "estimatedRemainingQuantity": 1
+    }
+  ],
+  "shippingOptions": [
+    {
+      "shippingServiceCode": "Standard Tracked Delivery",
+      "shippingCarrierCode": "Royal Mail",
+      "type": "Economy Delivery",
+      "shippingCost": {
+        "value": "3.38",
+        "currency": "GBP"
+      },
+      "quantityUsedForEstimate": 1,
+      "minEstimatedDeliveryDate": "2026-11-21T10:00:00.000Z",
+      "maxEstimatedDeliveryDate": "2026-11-24T10:00:00.000Z",
+      "shipToLocationUsedForEstimate": {
+        "postalCode": "REDACTED",
+        "country": "GB"
+      }
+    },
+    {
+      "shippingServiceCode": "Express Tracked Delivery",
+      "shippingCarrierCode": "Royal Mail",
+      "type": "Standard Delivery",
+      "shippingCost": {
+        "value": "4.46",
+        "currency": "GBP"
+      },
+      "quantityUsedForEstimate": 1,
+      "minEstimatedDeliveryDate": "2026-11-22T10:00:00.000Z",
+      "maxEstimatedDeliveryDate": "2026-11-24T10:00:00.000Z",
+      "shipToLocationUsedForEstimate": {
+        "postalCode": "REDACTED",
+        "country": "GB"
+      }
+    }
+  ],
+  "shipToLocations": {
+    "regionIncluded": [
+      {
+        "regionName": "United Kingdom",
+        "regionType": "COUNTRY",
+        "regionId": "GB"
+      },
+      {
+        "regionName": "Denmark",
+        "regionType": "COUNTRY",
+        "regionId": "DK"
+      },
+      {
+        "regionName": "New Zealand",
+        "regionType": "COUNTRY",
+        "regionId": "NZ"
+      },
+      {
+        "regionName": "Guatemala",
+        "regionType": "COUNTRY",
+        "regionId": "GT"
+      },
+      {
+        "regionName": "Fiji",
+        "regionType": "COUNTRY",
+        "regionId": "FJ"
+      },
+      {
+        "regionName": "Papua New Guinea",
+        "regionType": "COUNTRY",
+        "regionId": "PG"
+      },
+      {
+        "regionName": "Sierra Leone",
+        "regionType": "COUNTRY",
+        "regionId": "SL"
+      },
+      {
+        "regionName": "French Guiana",
+        "regionType": "COUNTRY",
+        "regionId": "GF"
+      },
+      {
+        "regionName": "El Salvador",
+        "regionType": "COUNTRY",
+        "regionId": "SV"
+      },
+      {
+        "regionName": "Gambia",
+        "regionType": "COUNTRY",
+        "regionId": "GM"
+      },
+      {
+        "regionName": "Dominican Republic",
+        "regionType": "COUNTRY",
+        "regionId": "DO"
+      },
+      {
+        "regionName": "Malaysia",
+        "regionType": "COUNTRY",
+        "regionId": "MY"
+      },
+      {
+        "regionName": "Cameroon",
+        "regionType": "COUNTRY",
+        "regionId": "CM"
+      },
+      {
+        "regionName": "Guyana",
+        "regionType": "COUNTRY",
+        "regionId": "GY"
+      },
+      {
+        "regionName": "Taiwan",
+        "regionType": "COUNTRY",
+        "regionId": "TW"
+      },
+      {
+        "regionName": "Poland",
+        "regionType": "COUNTRY",
+        "regionId": "PL"
+      },
+      {
+        "regionName": "Macau",
+        "regionType": "COUNTRY",
+        "regionId": "MO"
+      },
+      {
+        "regionName": "Oman",
+        "regionType": "COUNTRY",
+        "regionId": "OM"
+      },
+      {
+        "regionName": "United Arab Emirates",
+        "regionType": "COUNTRY",
+        "regionId": "AE"
+      },
+      {
+        "regionName": "Kenya",
+        "regionType": "COUNTRY",
+        "regionId": "KE"
+      },
+      {
+        "regionName": "Argentina",
+        "regionType": "COUNTRY",
+        "regionId": "AR"
+      },
+      {
+        "regionName": "New Caledonia",
+        "regionType": "COUNTRY",
+        "regionId": "NC"
+      },
+      {
+        "regionName": "Bhutan",
+        "regionType": "COUNTRY",
+        "regionId": "BT"
+      },
+      {
+        "regionName": "Senegal",
+        "regionType": "COUNTRY",
+        "regionId": "SN"
+      },
+      {
+        "regionName": "Togo",
+        "regionType": "COUNTRY",
+        "regionId": "TG"
+      },
+      {
+        "regionName": "Saint Kitts-Nevis",
+        "regionType": "COUNTRY",
+        "regionId": "KN"
+      },
+      {
+        "regionName": "Morocco",
+        "regionType": "COUNTRY",
+        "regionId": "MA"
+      },
+      {
+        "regionName": "Ireland",
+        "regionType": "COUNTRY",
+        "regionId": "IE"
+      },
+      {
+        "regionName": "Qatar",
+        "regionType": "COUNTRY",
+        "regionId": "QA"
+      },
+      {
+        "regionName": "Burundi",
+        "regionType": "COUNTRY",
+        "regionId": "BI"
+      },
+      {
+        "regionName": "Netherlands",
+        "regionType": "COUNTRY",
+        "regionId": "NL"
+      },
+      {
+        "regionName": "Slovakia",
+        "regionType": "COUNTRY",
+        "regionId": "SK"
+      },
+      {
+        "regionName": "Slovenia",
+        "regionType": "COUNTRY",
+        "regionId": "SI"
+      },
+      {
+        "regionName": "Equatorial Guinea",
+        "regionType": "COUNTRY",
+        "regionId": "GQ"
+      },
+      {
+        "regionName": "Thailand",
+        "regionType": "COUNTRY",
+        "regionId": "TH"
+      },
+      {
+        "regionName": "Belize",
+        "regionType": "COUNTRY",
+        "regionId": "BZ"
+      },
+      {
+        "regionName": "Philippines",
+        "regionType": "COUNTRY",
+        "regionId": "PH"
+      },
+      {
+        "regionName": "Aruba",
+        "regionType": "COUNTRY",
+        "regionId": "AW"
+      },
+      {
+        "regionName": "Democratic Republic of the Congo",
+        "regionType": "COUNTRY",
+        "regionId": "CD"
+      },
+      {
+        "regionType": "COUNTRY",
+        "regionId": "UY"
+      },
+      {
+        "regionName": "Republic of the Congo",
+        "regionType": "COUNTRY",
+        "regionId": "CG"
+      },
+      {
+        "regionName": "French Polynesia",
+        "regionType": "COUNTRY",
+        "regionId": "PF"
+      },
+      {
+        "regionName": "Sweden",
+        "regionType": "COUNTRY",
+        "regionId": "SE"
+      },
+      {
+        "regionName": "Colombia",
+        "regionType": "COUNTRY",
+        "regionId": "CO"
+      },
+      {
+        "regionName": "Spain",
+        "regionType": "COUNTRY",
+        "regionId": "ES"
+      },
+      {
+        "regionName": "Iceland",
+        "regionType": "COUNTRY",
+        "regionId": "IS"
+      },
+      {
+        "regionName": "Estonia",
+        "regionType": "COUNTRY",
+        "regionId": "EE"
+      },
+      {
+        "regionName": "Belgium",
+        "regionType": "COUNTRY",
+        "regionId": "BE"
+      },
+      {
+        "regionName": "Kuwait",
+        "regionType": "COUNTRY",
+        "regionId": "KW"
+      },
+      {
+        "regionName": "Israel",
+        "regionType": "COUNTRY",
+        "regionId": "IL"
+      },
+      {
+        "regionName": "Liechtenstein",
+        "regionType": "COUNTRY",
+        "regionId": "LI"
+      },
+      {
+        "regionName": "Benin",
+        "regionType": "COUNTRY",
+        "regionId": "BJ"
+      },
+      {
+        "regionName": "Bermuda",
+        "regionType": "COUNTRY",
+        "regionId": "BM"
+      },
+      {
+        "regionName": "Montserrat",
+        "regionType": "COUNTRY",
+        "regionId": "MS"
+      },
+      {
+        "regionName": "Zambia",
+        "regionType": "COUNTRY",
+        "regionId": "ZM"
+      },
+      {
+        "regionName": "South Korea",
+        "regionType": "COUNTRY",
+        "regionId": "KR"
+      },
+      {
+        "regionName": "Vanuatu",
+        "regionType": "COUNTRY",
+        "regionId": "VU"
+      },
+      {
+        "regionName": "Antigua and Barbuda",
+        "regionType": "COUNTRY",
+        "regionId": "AG"
+      },
+      {
+        "regionName": "Ecuador",
+        "regionType": "COUNTRY",
+        "regionId": "EC"
+      },
+      {
+        "regionName": "Italy",
+        "regionType": "COUNTRY",
+        "regionId": "IT"
+      },
+      {
+        "regionName": "Swaziland",
+        "regionType": "COUNTRY",
+        "regionId": "SZ"
+      },
+      {
+        "regionName": "Albania",
+        "regionType": "COUNTRY",
+        "regionId": "AL"
+      },
+      {
+        "regionName": "Ethiopia",
+        "regionType": "COUNTRY",
+        "regionId": "ET"
+      },
+      {
+        "regionName": "Monaco",
+        "regionType": "COUNTRY",
+        "regionId": "MC"
+      },
+      {
+        "regionName": "Niger",
+        "regionType": "COUNTRY",
+        "regionId": "NE"
+      },
+      {
+        "regionName": "Tanzania",
+        "regionType": "COUNTRY",
+        "regionId": "TZ"
+      },
+      {
+        "regionName": "Pakistan",
+        "regionType": "COUNTRY",
+        "regionId": "PK"
+      },
+      {
+        "regionName": "Panama",
+        "regionType": "COUNTRY",
+        "regionId": "PA"
+      },
+      {
+        "regionName": "Singapore",
+        "regionType": "COUNTRY",
+        "regionId": "SG"
+      },
+      {
+        "regionName": "Ghana",
+        "regionType": "COUNTRY",
+        "regionId": "GH"
+      },
+      {
+        "regionName": "Switzerland",
+        "regionType": "COUNTRY",
+        "regionId": "CH"
+      },
+      {
+        "regionName": "Djibouti",
+        "regionType": "COUNTRY",
+        "regionId": "DJ"
+      },
+      {
+        "regionName": "Reunion",
+        "regionType": "COUNTRY",
+        "regionId": "RE"
+      },
+      {
+        "regionName": "Chile",
+        "regionType": "COUNTRY",
+        "regionId": "CL"
+      },
+      {
+        "regionName": "Puerto Rico",
+        "regionType": "COUNTRY",
+        "regionId": "PR"
+      },
+      {
+        "regionName": "China",
+        "regionType": "COUNTRY",
+        "regionId": "CN"
+      },
+      {
+        "regionName": "Mali",
+        "regionType": "COUNTRY",
+        "regionId": "ML"
+      },
+      {
+        "regionName": "Martinique",
+        "regionType": "COUNTRY",
+        "regionId": "MQ"
+      },
+      {
+        "regionName": "Botswana",
+        "regionType": "COUNTRY",
+        "regionId": "BW"
+      },
+      {
+        "regionName": "Republic of Croatia",
+        "regionType": "COUNTRY",
+        "regionId": "HR"
+      },
+      {
+        "regionName": "Madagascar",
+        "regionType": "COUNTRY",
+        "regionId": "MG"
+      },
+      {
+        "regionName": "Cambodia",
+        "regionType": "COUNTRY",
+        "regionId": "KH"
+      },
+      {
+        "regionName": "Indonesia",
+        "regionType": "COUNTRY",
+        "regionId": "ID"
+      },
+      {
+        "regionName": "Portugal",
+        "regionType": "COUNTRY",
+        "regionId": "PT"
+      },
+      {
+        "regionName": "Malta",
+        "regionType": "COUNTRY",
+        "regionId": "MT"
+      },
+      {
+        "regionName": "Vietnam",
+        "regionType": "COUNTRY",
+        "regionId": "VN"
+      },
+      {
+        "regionName": "Cayman Islands",
+        "regionType": "COUNTRY",
+        "regionId": "KY"
+      },
+      {
+        "regionName": "Paraguay",
+        "regionType": "COUNTRY",
+        "regionId": "PY"
+      },
+      {
+        "regionName": "Lebanon",
+        "regionType": "COUNTRY",
+        "regionId": "LB"
+      },
+      {
+        "regionName": "Cyprus",
+        "regionType": "COUNTRY",
+        "regionId": "CY"
+      },
+      {
+        "regionName": "Liberia",
+        "regionType": "COUNTRY",
+        "regionId": "LR"
+      },
+      {
+        "regionName": "Rwanda",
+        "regionType": "COUNTRY",
+        "regionId": "RW"
+      },
+      {
+        "regionName": "Bangladesh",
+        "regionType": "COUNTRY",
+        "regionId": "BD"
+      },
+      {
+        "regionName": "Bolivia",
+        "regionType": "COUNTRY",
+        "regionId": "BO"
+      },
+      {
+        "regionName": "Maldives",
+        "regionType": "COUNTRY",
+        "regionId": "MV"
+      },
+      {
+        "regionName": "Australia",
+        "regionType": "COUNTRY",
+        "regionId": "AU"
+      },
+      {
+        "regionName": "Austria",
+        "regionType": "COUNTRY",
+        "regionId": "AT"
+      },
+      {
+        "regionName": "Gibraltar",
+        "regionType": "COUNTRY",
+        "regionId": "GI"
+      },
+      {
+        "regionName": "Sri Lanka",
+        "regionType": "COUNTRY",
+        "regionId": "LK"
+      },
+      {
+        "regionName": "Hong Kong",
+        "regionType": "COUNTRY",
+        "regionId": "HK"
+      },
+      {
+        "regionName": "Central African Republic",
+        "regionType": "COUNTRY",
+        "regionId": "CF"
+      },
+      {
+        "regionName": "Gabon Republic",
+        "regionType": "COUNTRY",
+        "regionId": "GA"
+      },
+      {
+        "regionName": "Lesotho",
+        "regionType": "COUNTRY",
+        "regionId": "LS"
+      },
+      {
+        "regionName": "Nigeria",
+        "regionType": "COUNTRY",
+        "regionId": "NG"
+      },
+      {
+        "regionName": "Zimbabwe",
+        "regionType": "COUNTRY",
+        "regionId": "ZW"
+      },
+      {
+        "regionName": "Mauritius",
+        "regionType": "COUNTRY",
+        "regionId": "MU"
+      },
+      {
+        "regionName": "Saint Lucia",
+        "regionType": "COUNTRY",
+        "regionId": "LC"
+      },
+      {
+        "regionName": "Bulgaria",
+        "regionType": "COUNTRY",
+        "regionId": "BG"
+      },
+      {
+        "regionName": "Jordan",
+        "regionType": "COUNTRY",
+        "regionId": "JO"
+      },
+      {
+        "regionName": "Guinea",
+        "regionType": "COUNTRY",
+        "regionId": "GN"
+      },
+      {
+        "regionName": "Czech Republic",
+        "regionType": "COUNTRY",
+        "regionId": "CZ"
+      },
+      {
+        "regionName": "Norway",
+        "regionType": "COUNTRY",
+        "regionId": "NO"
+      },
+      {
+        "regionName": "Canada",
+        "regionType": "COUNTRY",
+        "regionId": "CA"
+      },
+      {
+        "regionName": "Turks and Caicos Islands",
+        "regionType": "COUNTRY",
+        "regionId": "TC"
+      },
+      {
+        "regionName": "Chad",
+        "regionType": "COUNTRY",
+        "regionId": "TD"
+      },
+      {
+        "regionName": "Andorra",
+        "regionType": "COUNTRY",
+        "regionId": "AD"
+      },
+      {
+        "regionName": "Grenada",
+        "regionType": "COUNTRY",
+        "regionId": "GD"
+      },
+      {
+        "regionName": "Greece",
+        "regionType": "COUNTRY",
+        "regionId": "GR"
+      },
+      {
+        "regionName": "Romania",
+        "regionType": "COUNTRY",
+        "regionId": "RO"
+      },
+      {
+        "regionName": "Costa Rica",
+        "regionType": "COUNTRY",
+        "regionId": "CR"
+      },
+      {
+        "regionName": "Haiti",
+        "regionType": "COUNTRY",
+        "regionId": "HT"
+      },
+      {
+        "regionName": "India",
+        "regionType": "COUNTRY",
+        "regionId": "IN"
+      },
+      {
+        "regionName": "Mexico",
+        "regionType": "COUNTRY",
+        "regionId": "MX"
+      },
+      {
+        "regionName": "Serbia",
+        "regionType": "COUNTRY",
+        "regionId": "RS"
+      },
+      {
+        "regionName": "Montenegro",
+        "regionType": "COUNTRY",
+        "regionId": "ME"
+      },
+      {
+        "regionName": "Saudi Arabia",
+        "regionType": "COUNTRY",
+        "regionId": "SA"
+      },
+      {
+        "regionName": "Japan",
+        "regionType": "COUNTRY",
+        "regionId": "JP"
+      },
+      {
+        "regionName": "Lithuania",
+        "regionType": "COUNTRY",
+        "regionId": "LT"
+      },
+      {
+        "regionName": "Bahamas",
+        "regionType": "COUNTRY",
+        "regionId": "BS"
+      },
+      {
+        "regionName": "Bahrain",
+        "regionType": "COUNTRY",
+        "regionId": "BH"
+      },
+      {
+        "regionName": "Trinidad and Tobago",
+        "regionType": "COUNTRY",
+        "regionId": "TT"
+      },
+      {
+        "regionName": "Malawi",
+        "regionType": "COUNTRY",
+        "regionId": "MW"
+      },
+      {
+        "regionName": "Bosnia and Herzegovina",
+        "regionType": "COUNTRY",
+        "regionId": "BA"
+      },
+      {
+        "regionName": "Hungary",
+        "regionType": "COUNTRY",
+        "regionId": "HU"
+      },
+      {
+        "regionName": "Angola",
+        "regionType": "COUNTRY",
+        "regionId": "AO"
+      },
+      {
+        "regionName": "Nicaragua",
+        "regionType": "COUNTRY",
+        "regionId": "NI"
+      },
+      {
+        "regionName": "Finland",
+        "regionType": "COUNTRY",
+        "regionId": "FI"
+      },
+      {
+        "regionName": "Luxembourg",
+        "regionType": "COUNTRY",
+        "regionId": "LU"
+      },
+      {
+        "regionName": "Uganda",
+        "regionType": "COUNTRY",
+        "regionId": "UG"
+      },
+      {
+        "regionName": "Turkey",
+        "regionType": "COUNTRY",
+        "regionId": "TR"
+      },
+      {
+        "regionName": "Barbados",
+        "regionType": "COUNTRY",
+        "regionId": "BB"
+      },
+      {
+        "regionName": "France",
+        "regionType": "COUNTRY",
+        "regionId": "FR"
+      },
+      {
+        "regionName": "Germany",
+        "regionType": "COUNTRY",
+        "regionId": "DE"
+      },
+      {
+        "regionName": "Latvia",
+        "regionType": "COUNTRY",
+        "regionId": "LV"
+      },
+      {
+        "regionName": "Egypt",
+        "regionType": "COUNTRY",
+        "regionId": "EG"
+      },
+      {
+        "regionName": "Jamaica",
+        "regionType": "COUNTRY",
+        "regionId": "JM"
+      },
+      {
+        "regionName": "Mozambique",
+        "regionType": "COUNTRY",
+        "regionId": "MZ"
+      },
+      {
+        "regionName": "Namibia",
+        "regionType": "COUNTRY",
+        "regionId": "NA"
+      },
+      {
+        "regionName": "Peru",
+        "regionType": "COUNTRY",
+        "regionId": "PE"
+      },
+      {
+        "regionName": "South Africa",
+        "regionType": "COUNTRY",
+        "regionId": "ZA"
+      },
+      {
+        "regionName": "Brunei Darussalam",
+        "regionType": "COUNTRY",
+        "regionId": "BN"
+      },
+      {
+        "regionName": "Honduras",
+        "regionType": "COUNTRY",
+        "regionId": "HN"
+      }
+    ],
+    "regionExcluded": [
+      {
+        "regionName": "Afghanistan",
+        "regionType": "COUNTRY",
+        "regionId": "AF"
+      },
+      {
+        "regionName": "Libya",
+        "regionType": "COUNTRY",
+        "regionId": "LY"
+      },
+      {
+        "regionName": "Nauru",
+        "regionType": "COUNTRY",
+        "regionId": "NR"
+      },
+      {
+        "regionName": "Somalia",
+        "regionType": "COUNTRY",
+        "regionId": "SO"
+      },
+      {
+        "regionName": "Yemen",
+        "regionType": "COUNTRY",
+        "regionId": "YE"
+      },
+      {
+        "regionName": "Ukraine",
+        "regionType": "COUNTRY",
+        "regionId": "UA"
+      },
+      {
+        "regionName": "Iran",
+        "regionType": "COUNTRY",
+        "regionId": "IR"
+      },
+      {
+        "regionName": "Russian Federation",
+        "regionType": "COUNTRY",
+        "regionId": "RU"
+      }
+    ]
+  },
+  "returnTerms": {
+    "returnsAccepted": false
+  },
+  "taxes": [
+    {
+      "taxType": "VAT",
+      "includedInPrice": false,
+      "ebayCollectAndRemitTax": false
+    }
+  ],
+  "localizedAspects": [
+    {
+      "type": "STRING",
+      "name": "Platform",
+      "value": "Nintendo Switch"
+    },
+    {
+      "type": "STRING",
+      "name": "MPN",
+      "value": "10007456"
+    },
+    {
+      "type": "STRING",
+      "name": "Year Manufactured",
+      "value": "2021"
+    },
+    {
+      "type": "STRING",
+      "name": "Item Depth",
+      "value": "0.55 in"
+    },
+    {
+      "type": "STRING",
+      "name": "Colour",
+      "value": "White"
+    },
+    {
+      "type": "STRING",
+      "name": "Brand",
+      "value": "Nintendo"
+    },
+    {
+      "type": "STRING",
+      "name": "Type",
+      "value": "Handheld System"
+    },
+    {
+      "type": "STRING",
+      "name": "Region Code",
+      "value": "Region Free"
+    },
+    {
+      "type": "STRING",
+      "name": "Unit Type",
+      "value": "Unit"
+    },
+    {
+      "type": "STRING",
+      "name": "Manufacturer Warranty",
+      "value": "1 Year"
+    },
+    {
+      "type": "STRING",
+      "name": "Item Height",
+      "value": "4 in"
+    },
+    {
+      "type": "STRING",
+      "name": "Model",
+      "value": "Nintendo Switch (OLED Model)"
+    },
+    {
+      "type": "STRING",
+      "name": "Connectivity",
+      "value": "HDMI"
+    },
+    {
+      "type": "STRING",
+      "name": "Charger Included",
+      "value": "Yes"
+    },
+    {
+      "type": "STRING",
+      "name": "Features",
+      "value": "Wi-Fi Capability"
+    },
+    {
+      "type": "STRING",
+      "name": "Storage Capacity",
+      "value": "64 GB"
+    }
+  ],
+  "primaryProductReviewRating": {
+    "reviewCount": 111,
+    "averageRating": "4.93",
+    "ratingHistograms": [
+      {
+        "rating": "5",
+        "count": 118
+      },
+      {
+        "rating": "4",
+        "count": 5
+      },
+      {
+        "rating": "3",
+        "count": 0
+      },
+      {
+        "rating": "2",
+        "count": 0
+      },
+      {
+        "rating": "1",
+        "count": 1
+      }
+    ]
+  },
+  "topRatedBuyingExperience": false,
+  "buyingOptions": [
+    "FIXED_PRICE"
+  ],
+  "itemWebUrl": "https://www.ebay.co.uk/itm/920157680853",
+  "description": "For sale is an official Nintendo Switch OLED Model console tablet (64GB internal storage) in great pre-owned condition, fitted with a pair of third-party White Joy-Con controllers. Ideal for vibrant portable handheld gaming or as a clean replacement unit for an existing setup. Offered with complete transparency regarding the third-party replacement controllers. Thoroughly tested, cleaned, wiped, and restored to original factory default settings.<br><br>​PLEASE NOTE — KEY DISCLOSURES:<br>​Third-Party Controllers: The attached White Joy-Cons are unbranded third-party replacement controllers (not official Nintendo Joy-Cons).<br><br>​Console Only: Includes the Switch OLED console tablet and third-party White Joy-Cons only—no TV dock, charger, or cables are included.<br><br>​Console Model: This is an official Nintendo Switch OLED Model (64GB), NOT a Nintendo Switch 2.<br><br>​What’s Included:<br>​Official Nintendo Switch OLED Model Console Tablet (HEG-001 / 64GB Internal Storage)<br>​Third-Party Joy-Con Controllers (Pair: Left &amp; Right White)<br><br>​Condition &amp; Testing Report:<br>​Console &amp; 7-Inch OLED Screen: Front glass screen, slim black bezel, and rear casing are in clean, great cosmetic condition throughout. The 7-inch OLED display illuminates vividly with zero dead pixels or burn-in and full touchscreen accuracy. Wide adjustable rear kickstand holds firmly.<br>​Third-Party White Joy-Cons: Replacement White Joy-Cons test 100% operational—both analog thumbsticks show zero stick drift, rail locks hold securely onto the console sides, and all buttons/triggers respond smoothly.<br>​Hardware &amp; Reset Status: Internal 64GB storage, game card slot, microSD card reader, enhanced onboard speakers, headphone jack, Wi-Fi connectivity, and USB-C charging port test 100% functional. Unlinked from previous Nintendo user accounts and factory<br>reset.<br><br>​Key Features:<br>​7-Inch Vibrant OLED Display: Features vivid colours, deep contrast, and slim bezels for superior handheld and tabletop visuals.<br>​64GB Internal Storage: Double the onboard storage of standard Switch models, expandable via microSD card slot.<br>​Wide Adjustable Stand: Sturdy full-width rear kickstand supports comfortable tabletop multiplayer anywhere.<br><br>​Shipping &amp; Delivery:<br>The Nintendo Switch OLED console and attached third-party White Joy-Cons will be wrapped securely in multiple protective layers of bubble wrap and dispatched promptly inside a sturdy shipping box via a fast, tracked courier service.",
+  "paymentMethods": [
+    {
+      "paymentMethodType": "OTHER"
+    },
+    {
+      "paymentMethodType": "WALLET",
+      "paymentMethodBrands": [
+        {
+          "paymentMethodBrandType": "PAYPAL"
+        },
+        {
+          "paymentMethodBrandType": "APPLE_PAY"
+        }
+      ]
+    },
+    {
+      "paymentMethodType": "CREDIT_CARD",
+      "paymentMethodBrands": [
+        {
+          "paymentMethodBrandType": "VISA"
+        },
+        {
+          "paymentMethodBrandType": "MASTERCARD"
+        },
+        {
+          "paymentMethodBrandType": "DINERS_CLUB"
+        }
+      ]
+    }
+  ],
+  "immediatePay": false,
+  "enabledForGuestCheckout": true,
+  "eligibleForInlineCheckout": true,
+  "lotSize": 0,
+  "legacyItemId": "920157680853",
+  "priorityListing": false,
+  "adultOnly": false,
+  "categoryId": "139971",
+  "listingMarketplaceId": "EBAY_GB"
+}

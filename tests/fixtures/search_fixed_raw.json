@@ -1,0 +1,1820 @@
+{
+  "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=nintendo+switch+oled&limit=20&offset=0",
+  "total": 3401,
+  "limit": 20,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|920157680853|0",
+      "title": "🤍Nintendo Switch OLED Model 64GB Console -White Joy-Cons - Great Screen✅",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/1NsAAeSwrcdq~f~r/s-l225.jpg"
+      },
+      "price": {
+        "value": "99.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C920157680853%7C0",
+      "seller": {
+        "username": "willsgamingvault",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 911,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1NsAAeSwrcdq~f~r/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "3.38",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "155"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "epid": "5048310008",
+      "itemWebUrl": "https://www.ebay.co.uk/itm/920157680853?_skw=nintendo+switch+oled&hash=itemd63dabf4d5:g:1NsAAeSwrcdq~f~r",
+      "itemLocation": {
+        "postalCode": "LN10***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/zTYAAeSwzixq~gA5/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/zjsAAeSwMNlq~gA7/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1kIAAeSwL7hq~gA9/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1voAAeSwMcFq~gBA/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/0RYAAeSwtv1q~f~s/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ULwAAeSweYhq~f~s/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "920157680853",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T19:45:09.000Z",
+      "itemCreationDate": "2026-11-18T19:45:09.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|840093028963|0",
+      "title": "Nintendo Switch OLED + Case & 128GB SD Card",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/KN0AAeSwy0Jq62GH/s-l225.jpg"
+      },
+      "price": {
+        "value": "155.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C840093028963%7C0",
+      "seller": {
+        "username": "cambr-4150",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 68,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/KN0AAeSwy0Jq62GH/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "5.15",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-27T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "315"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "epid": "5048310008",
+      "itemWebUrl": "https://www.ebay.co.uk/itm/840093028963?_skw=nintendo+switch+oled&hash=itemc399725263:g:KN0AAeSwy0Jq62GH&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7kKIZkX9t0QfM53jciOg4Wde8bqUnonZG%2FbcAQzP8kmgtEDXjDqgIoPxM3Zpu5Kr51a4aelx0Mffu2ophbWvExozFRaBqjHtVhEPrIp1SMyLpEr9U3jt1aFLTI5gjW5ytlsI8htFfxRznc1%2FcdPRNbf9hdT6DG%2Fm22ha8pqCR0YbJqml%2BZ5VubXbYGkm5U8BKgLrRX69r9XBANI%2BOmOT5pnVtPDEgw5js5Vo%2BdiTGpNieriP%2B1yJImJOmZEm8D2cInKv4q2jUhgB%2BaGCVi0QD0rwlNMn4deLXcD8Om8WxUMrdYB3gnuNfq4djs%2FCQYnK%2BY%3D",
+      "itemLocation": {
+        "postalCode": "KA30***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JZQAAeSwvAdq62GH/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "840093028963",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-04T16:48:17.000Z",
+      "itemCreationDate": "2026-11-04T16:48:17.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|307285021333|0",
+      "title": "Nintendo Switch OLED Model HEG-001 Handheld Console - 64GB - White",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/P7gAAeSwtAFq-tKO/s-l225.jpg"
+      },
+      "price": {
+        "value": "146.30",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C307285021333%7C0",
+      "seller": {
+        "username": "marcos_dibello",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 73,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/P7gAAeSwtAFq-tKO/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "3.65",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "110"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/307285021333?_skw=nintendo+switch+oled&hash=item478b9d5295:g:P7gAAeSwtAFq-tKO&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7knPCTgke6vOHzlMcCIwhsxH1H%2BR0K%2BwQfZoGiiROQaCWUq1z10y%2FIhFuoyhvWqLY0S9OBbnuCQ0SLdETj7iv0CKy7lG3HdLtprga76EUaJzZ6RZyqQMNtJNBmzJVXD4llPWVyBUQOGj4M%2Fo5cQVZqYpyRxvvJHkZwEm3SeTk1WQrowpllCA6%2FwrkMxUxX6rjGt%2Fljt6vtFRlthetZ%2B1olKBlt18oAqOPrKZ1o1CttZs9lu4GF40XKUr%2FxZwfTZp9gwzr7%2FwVcOhIgpvYKZpRiYaVMUsC0M8fowUfYJLEO1tQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "E8***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3GkAAeSwTqlq-tKN/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2vwAAeSwRfJq-tKO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4q0AAeSwB8Bq-tKO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4OwAAeSwnRJq-tKO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/cVUAAeSwgW5q-tKa/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3j4AAeSw9q9q-tKO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/bc4AAeSwUs9q-tKO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4oIAAeSwMVVq-tKh/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3qUAAeSwNjdq-tKs/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4F0AAeSwWNVq-tKw/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3IMAAeSwMHZq-tK0/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/37EAAeSwNAVq-tKP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3YsAAeSw8R1q-tKP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4YAAAeSwbEdq-tKP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Pg4AAeSwAJZq-tKP/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "307285021333",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-16T10:00:53.000Z",
+      "itemCreationDate": "2026-11-16T10:00:53.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|364710736005|634243887933",
+      "title": "Nintendo Switch OR OLED Console  + Mario Kart 8 + Minecraft + includes joycons",
+      "itemGroupHref": "https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=364710736005",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/q4oAAOSwpJtlw25m/s-l225.jpg"
+      },
+      "price": {
+        "value": "209.97",
+        "currency": "GBP"
+      },
+      "itemGroupType": "SELLER_DEFINED_VARIATIONS",
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C364710736005%7C634243887933",
+      "seller": {
+        "username": "lost-levels-ltd",
+        "feedbackPercentage": "99.7",
+        "feedbackScore": 23128,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/q4oAAOSwpJtlw25m/s-l960.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-26T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "315"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/364710736005?_skw=nintendo+switch+oled&hash=item54ea743085:g:q4oAAOSwpJtlw25m&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7kz0TCLppjWd0dkHI5fryZoUarwFac63rtSzSqDt8o7k3mus9XmnnBnDNzjkJwH7vj2ufQe51zqoEvXl1hy5VZFkhnHcXEfMZzzeuVLmdVcvVR2E066LPfHw5C7DwITtOJVKeszrw0rOT%2BCWwOZzl8Kc8F7EdR6FSJHg4%2F4OEHgAei%2FOR3wE4DbRZ3%2B99X8ptY5o5LYS6IyGemOwE1bDfR8OB5y4lQC55yI09xEmhMs61T4J%2BmZyhf9j%2F9JmDZtWKcSuOu1eKEAbwXt%2BbFf5Ce5UoPWqt8FeEzRmjCKz%2BLrkQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "G51***",
+        "country": "GB"
+      },
+      "adultOnly": false,
+      "unitPricingMeasure": "Unit",
+      "unitPrice": {
+        "value": "209.97",
+        "currency": "GBP"
+      },
+      "legacyItemId": "364710736005",
+      "availableCoupons": false,
+      "itemOriginDate": "2024-02-01T14:38:48.000Z",
+      "itemCreationDate": "2024-02-01T14:38:48.000Z",
+      "topRatedBuyingExperience": true,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|920157917208|0",
+      "title": "🟦🟥Nintendo Switch OLED Model 64GB Console Bundle -Neon Joy-Cons -Complete Set✅",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/10UAAeSwR-tq~hH9/s-l225.jpg"
+      },
+      "price": {
+        "value": "114.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C920157917208%7C0",
+      "seller": {
+        "username": "willsgamingvault",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 911,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/10UAAeSwR-tq~hH9/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "4.90",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "155"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/920157917208?_skw=nintendo+switch+oled&hash=itemd63daf9018:g:10UAAeSwR-tq~hH9",
+      "itemLocation": {
+        "postalCode": "LN10***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2ckAAeSwNAVq~hJ~/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/17YAAeSwHr1q~hKC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/NnEAAeSwBehq~hKE/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3msAAeSwMcFq~hKG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1okAAeSw2VZq~hKL/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2xwAAeSwi7Nq~hKN/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2X8AAeSwMHZq~hKP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1d4AAeSwSLFq~hKT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/17AAAeSwTqlq~hH-/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/28sAAeSwbB1q~hKa/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1FkAAeSwnZJq~hH~/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "920157917208",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T21:03:29.000Z",
+      "itemCreationDate": "2026-11-18T21:03:29.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|920153991104|0",
+      "title": "🤍Nintendo Switch OLED Model 64GB Console- White Joy-Cons - Handheld✅",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/A2oAAeSw5wFq~Mpv/s-l225.jpg"
+      },
+      "price": {
+        "value": "89.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C920153991104%7C0",
+      "seller": {
+        "username": "willsgamingvault",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 911,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/A2oAAeSw5wFq~Mpv/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "3.38",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "155"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "epid": "5048310008",
+      "itemWebUrl": "https://www.ebay.co.uk/itm/920153991104?_skw=nintendo+switch+oled&hash=itemd63d73a7c0:g:A2oAAeSw5wFq~Mpv",
+      "itemLocation": {
+        "postalCode": "LN10***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3-MAAeSwBehq~Mpw/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/gUgAAeSwZhBq~Mpw/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/gLoAAeSwMjJq~Mpw/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/hbUAAeSwnRJq~Mpx/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/fUIAAeSwzqFq~Mpx/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/gGYAAeSw5Dxq~Mpx/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JDsAAeSwz51q~Mpw/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "920153991104",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-17T21:44:25.000Z",
+      "itemCreationDate": "2026-11-17T21:44:25.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|377657096780|0",
+      "title": "White Nintendo Switch OLED Console With Dock, Grip, Charger Excellent Condition",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/3IwAAeSwMVVq~g~Z/s-l225.jpg"
+      },
+      "price": {
+        "value": "129.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C377657096780%7C0",
+      "seller": {
+        "username": "cheggsells",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 787,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3IwAAeSwMVVq~g~Z/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "4.90",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "175"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/377657096780?_skw=nintendo+switch+oled&hash=item57ee1dfa4c:g:3IwAAeSwMVVq~g~Z",
+      "itemLocation": {
+        "postalCode": "DN15***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1VsAAeSwEPdq~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1lMAAeSwV6Zq~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1wgAAeSwTqlq~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1wcAAeSwTqlq~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/05EAAeSwnZJq~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/30oAAeSwXf9q~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2YsAAeSwf-1q~g~a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/244AAeSw7~lq~g~b/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "377657096780",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T21:02:22.000Z",
+      "itemCreationDate": "2026-11-18T21:02:22.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|840138425575|0",
+      "title": "Nintendo Switch OLED.  plus 4 x  Joy-Con, Mario Kart 8 and charger.",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/k4UAAeSwi7Nq~W2t/s-l225.jpg"
+      },
+      "price": {
+        "value": "125.50",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C840138425575%7C0",
+      "seller": {
+        "username": "harrbarnet_2",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 136,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/k4UAAeSwi7Nq~W2t/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "4.90",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-26T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "105"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/840138425575?_skw=nintendo+switch+oled&hash=itemc39c2704e7:g:k4UAAeSwi7Nq~W2t",
+      "itemLocation": {
+        "postalCode": "NW11***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/uxwAAeSwtAFq~Gzo/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "840138425575",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-17T15:08:36.000Z",
+      "itemCreationDate": "2026-11-17T15:08:36.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|860151530235|0",
+      "title": "Nintendo Switch OLED Model Handheld/Dockable Console w/ Dock Case 128GB SD Card",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/IeUAAeSwqdFq~Bq2/s-l225.jpg"
+      },
+      "price": {
+        "value": "141.10",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C860151530235%7C0",
+      "seller": {
+        "username": "jacoscas_0",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 60,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "marketingPrice": {
+        "discountPercentage": "0"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/IeUAAeSwqdFq~Bq2/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "8.36",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-25T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "175"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/860151530235?_skw=nintendo+switch+oled&hash=itemc84506c2fb:g:IeUAAeSwqdFq~Bq2",
+      "itemLocation": {
+        "postalCode": "YO8***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/MnsAAeSwgcxq~BqT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/kV4AAeSwauBq~BqT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1FAAAeSwqrpq~CXh/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/NqYAAeSwtv1q~CUC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/kzIAAeSwI~Fq~BqT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ykoAAeSwFVlq~BqT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/MGAAAeSwRfJq~BqT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/k58AAeSwBehq~BqT/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "860151530235",
+      "availableCoupons": true,
+      "itemOriginDate": "2026-11-17T09:23:44.000Z",
+      "itemCreationDate": "2026-11-17T09:23:44.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|257645880898|0",
+      "title": "Nintendo Switch OLED Advanced Micro-Soldering Service (Mail-In UK)",
+      "leafCategoryIds": [
+        "171833"
+      ],
+      "categories": [
+        {
+          "categoryId": "171833",
+          "categoryName": "Replacement Parts & Tools"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/LmYAAeSwRQxqZ8qq/s-l225.jpg"
+      },
+      "price": {
+        "value": "67.50",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C257645880898%7C0",
+      "seller": {
+        "username": "xernuk",
+        "feedbackPercentage": "99.4",
+        "feedbackScore": 661,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/LmYAAeSwRQxqZ8qq/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-12-04T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-05T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "165"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/257645880898?_skw=nintendo+switch+oled&hash=item3bfce42642:g:LmYAAeSwRQxqZ8qq",
+      "itemLocation": {
+        "postalCode": "IP25***",
+        "country": "GB"
+      },
+      "adultOnly": false,
+      "legacyItemId": "257645880898",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-07-27T21:17:44.000Z",
+      "itemCreationDate": "2026-07-27T21:17:44.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|227620017504|0",
+      "title": "Nintendo Switch OLED White Joy-Con Bundle Case Sonic Mania Hello Neighbor",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/9~8AAeSw~wlq~X6s/s-l225.jpg"
+      },
+      "price": {
+        "value": "156.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C227620017504%7C0",
+      "seller": {
+        "username": "jsfindsilver",
+        "feedbackPercentage": "99.6",
+        "feedbackScore": 522,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/9~8AAeSw~wlq~X6s/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "7.08",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-25T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "255"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/227620017504?_skw=nintendo+switch+oled&hash=item34ff35d560:g:9~8AAeSw~wlq~X6s",
+      "itemLocation": {
+        "postalCode": "BT19***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/k0oAAeSwV6Zq~X6f/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/lhgAAeSwqlBq~X6f/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/k0sAAeSwV6Zq~X6f/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/k90AAeSwR-tq~X6f/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/8f0AAeSwzvJq~X6f/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/lQAAAeSwtv1q~X6f/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "227620017504",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T10:37:44.000Z",
+      "itemCreationDate": "2026-11-18T10:37:44.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|336898921619|0",
+      "title": "Ninetendo switch Oled mariocart8 Deluxe",
+      "leafCategoryIds": [
+        "139973"
+      ],
+      "categories": [
+        {
+          "categoryId": "139973",
+          "categoryName": "Video Games"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/nc8AAeSwFjFq-dIT/s-l225.jpg"
+      },
+      "price": {
+        "value": "208.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C336898921619%7C0",
+      "seller": {
+        "username": "donut4",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 536,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Very Good",
+      "conditionId": "4000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/nc8AAeSwFjFq-dIT/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "10.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "65"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/336898921619?_skw=nintendo+switch+oled&hash=item4e70bd9493:g:nc8AAeSwFjFq-dIT",
+      "itemLocation": {
+        "postalCode": "SO16***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/MvYAAeSwFVlq-dH8/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/m6AAAeSwzqFq-dH7/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/n4gAAeSw6iJq-dIB/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ofUAAeSwvulq-dIU/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/nGkAAeSwb6Nq-dIW/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/nhIAAeSwrq1q-dIW/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "336898921619",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-15T15:35:52.000Z",
+      "itemCreationDate": "2026-11-15T15:35:52.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|168871772255|0",
+      "title": "Nintendo Switch OLED Model Home Console White/Black with Dock & Accessories",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/4NEAAeSwrcdq~iFl/s-l225.jpg"
+      },
+      "price": {
+        "value": "151.50",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C168871772255%7C0",
+      "seller": {
+        "username": "m-riaz1",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 59,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4NEAAeSwrcdq~iFl/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "5.15",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "90"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/168871772255?_skw=nintendo+switch+oled&hash=item27518ac05f:g:4NEAAeSwrcdq~iFl",
+      "itemLocation": {
+        "postalCode": "SL2***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/NukAAeSwyfhq~iFy/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "168871772255",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T22:11:25.000Z",
+      "itemCreationDate": "2026-11-18T22:11:25.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|336872358019|0",
+      "title": "Nintendo Switch OLED Neon 64GB Boxed, NEW Racing Wheels & Quad Charging Station",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/-PsAAeSwFllq5jq~/s-l225.jpg"
+      },
+      "price": {
+        "value": "159.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C336872358019%7C0",
+      "seller": {
+        "username": "bh_essentials",
+        "feedbackPercentage": "99.8",
+        "feedbackScore": 1318,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/-PsAAeSwFllq5jq~/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-26T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "125"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/336872358019?_skw=nintendo+switch+oled&hash=item4e6f284083:g:-PsAAeSwFllq5jq~&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lTIHGxPKfHe0R5IwDM%2FBXp8EPyu126iM5qBWme4OFEBi3RXvRdWgo2VRnjpFgvTpiPZV%2B5Y9nmwzAGqJVZ%2FTr%2FOYD8%2FUCznO6PwUfK5a6fAyIWHhoIg9ZMCD8VpqayXRvDLGCPk%2FU2PHjK9yVnXgaElvRYP4RIhMwsCShwEkW9fe9V8OkzhMM6Lqwa2CGwRCEYALBlrEraeoTvCs7idSOVbgnE7brkF%2BDvKl9MrDOHG8tYi0t2QrBnW3C%2FFx8W%2Fgjr4k2nGEbOUtnl%2BjAZIUbMCkBAtNoY%2FG6EzESp6riPrQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "NG5***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/9gMAAeSwBYpq5jq~/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/94gAAeSwFadq5jq~/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/9dsAAeSwIdhq5jq~/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/9n8AAeSwphZq5jrA/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/9EEAAeSwxFxq5jrA/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "336872358019",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-10-31T19:08:15.000Z",
+      "itemCreationDate": "2026-10-31T19:08:15.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|960115441986|0",
+      "title": "Nintendo Switch OLED White 64GB Console with Dock Joy-Cons Charger & Box",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/NWMAAeSwFBtq3nrD/s-l225.jpg"
+      },
+      "price": {
+        "value": "161.89",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C960115441986%7C0",
+      "seller": {
+        "username": "therug32",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 869,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/NWMAAeSwFBtq3nrD/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "7.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "90"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/960115441986?_skw=nintendo+switch+oled&hash=itemdf8b570142:g:NWMAAeSwFBtq3nrD&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7l1ey%2BWpXrFm2zi%2FBbTQsO1%2F%2BOsYbnt5rM%2B6ZxWvy1vNf6btH6ShsLLIfQyDqOes62nzznShWlcQyVKJDm1581kj3Aeq4%2FEJE9z6YLo%2BOHfnj9fvSYLDSnFxXxshRxaZfYb7mjoDdbcviJQYHunDVlnbWOoXktnfnpAX5wDEZgrGC6gRoqdZlJgJTvhN%2FDdl1CeSf7mOjLq2g%2BfuduoXPqbDk3gFi0nclwEgY71komESepe9C2o0B1WrcpoSaBrJI67ncnFYg9ol5ZyMyuv4mHxho2%2F0lHP1GyOACV09KNxq1rAEO3JsdHxqmf5RffoS98%3D",
+      "itemLocation": {
+        "postalCode": "TF5***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/59AAAeSwe2dq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/M3oAAeSwVbBq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/XvcAAeSwi1tq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/y~8AAeSw1Nlq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Rq4AAeSwLHlq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/WGsAAeSw2lxq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/u9AAAeSwUdlq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/pQkAAeSwN7lq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/OuoAAeSw6glq3nrD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/rG4AAeSwRD5q3nrD/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "960115441986",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-10-25T21:57:55.000Z",
+      "itemCreationDate": "2026-10-25T21:57:55.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|366812811391|0",
+      "title": "Nintendo Switch oled Handheld System Console Green Joy-Con Touchscreen USB-C",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/LEEAAeSwPSxquUZ0/s-l225.jpg"
+      },
+      "price": {
+        "value": "149.42",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C366812811391%7C0",
+      "seller": {
+        "username": "spa-1593",
+        "feedbackPercentage": "90.9",
+        "feedbackScore": 9,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Opened – never used",
+      "conditionId": "1500",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/LEEAAeSwPSxquUZ0/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "3.92",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-25T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "65"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/366812811391?_skw=nintendo+switch+oled&hash=item5567bf507f:g:LEEAAeSwPSxquUZ0&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lB5uducUHCCTHS2BBnzTeT%2F9V3My9mT64nylFZE2V0cVYnnRwLV6qv0CdfHEf8rlSYfAERR%2BA1mdi52Yc%2F%2Bx4jyWDjmX8TDbV9RFokCWhyDnUIfkYQioOuGhaubpUJqiv0JgHjVpwjMXjXamLbRL4bEFuq72BjDx5AeTl44n3zzXXJ05vfJvSI7Zp1xYLMVNrsJK9jcQBNXwlAUvQ9YmzcwQKnaUNFPnaxs79UovKUKrh%2B%2Byf64myUb1Is4J%2FjM8%2FifwMjNMbRw%2B6bhKt0xiFWewXfLy1L0AttA2Ul7V3piQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "SO41***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/S6QAAeSwfsNquUZ6/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/KicAAeSwtPdquUaC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/QXsAAeSw0SZquUaJ/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "366812811391",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-09-27T16:40:53.000Z",
+      "itemCreationDate": "2026-11-15T23:56:00.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|237172040614|0",
+      "title": "Nintendo Switch OLED White Boxed with all accessories Free UK Post",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/yqsAAeSwcOFq4Qu2/s-l225.jpg"
+      },
+      "price": {
+        "value": "169.95",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C237172040614%7C0",
+      "seller": {
+        "username": "espiky",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 1134,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/yqsAAeSwcOFq4Qu2/s-l500.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-01T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "90"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/237172040614?_skw=nintendo+switch+oled&hash=item37388e23a6:g:yqsAAeSwcOFq4Qu2",
+      "itemLocation": {
+        "postalCode": "B77***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/OuEAAeSwoMFq4QvG/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "237172040614",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-10-27T20:40:06.000Z",
+      "itemCreationDate": "2026-11-08T22:13:09.000Z",
+      "topRatedBuyingExperience": true,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|820323231851|0",
+      "title": "Nintendo Switch 39W Charger For Switch Lite/Switch OLED/Switch Deck Dock Switch",
+      "leafCategoryIds": [
+        "171814"
+      ],
+      "categories": [
+        {
+          "categoryId": "171814",
+          "categoryName": "Cables & Adapters"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        },
+        {
+          "categoryId": "54968",
+          "categoryName": "Video Game Accessories"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/YwIAAeSwh3Nqj6Qo/s-l225.jpg"
+      },
+      "price": {
+        "value": "8.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C820323231851%7C0",
+      "seller": {
+        "username": "ukdailysupply16",
+        "feedbackPercentage": "99.4",
+        "feedbackScore": 80003,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/YwIAAeSwh3Nqj6Qo/s-l1200.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-20T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "125"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/820323231851?_skw=nintendo+switch+oled&hash=itembeff13286b:g:YwIAAeSwh3Nqj6Qo",
+      "itemLocation": {
+        "postalCode": "DE55***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/pm4AAeSwXiNqXx4n/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/wXEAAeSwv9Nqh~uj/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4jUAAeSwl85qXx4m/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/utYAAeSwU6VqX0UO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/f4sAAeSwOPZqX0UO/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/XTkAAeSwwzRqXx4o/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ri8AAeSwErFqXx4n/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/axkAAeSwpwZqXx4n/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/fWkAAeSwN0tqh~uk/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/q7kAAeSwaStqXx4o/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/xwcAAeSwEjtqh~uj/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/mp0AAeSwicVqh~uk/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "820323231851",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-06T09:32:03.000Z",
+      "itemCreationDate": "2026-11-06T09:32:03.000Z",
+      "topRatedBuyingExperience": true,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|237191003298|0",
+      "title": "Nintendo Switch OLED Console - Excellent Condition",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/2S4AAeSwtiNq~hV5/s-l225.jpg"
+      },
+      "price": {
+        "value": "234.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C237191003298%7C0",
+      "seller": {
+        "username": "iadewa4",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 281,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2S4AAeSwtiNq~hV5/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "7.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-26T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "130"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/237191003298?_skw=nintendo+switch+oled&hash=item3739af7ca2:g:2S4AAeSwtiNq~hV5&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7k1hWwwQVvFdPAjuJw1xEDYWPnqIg3AnAMFQtRpnT9y2N6hjjeLEO01m%2BLU8b6ZgNUc6u8mqW%2Be0NHyQYjPyMWbD471d5Q9%2BpnFa7C2dJ6tdwMyNb9j1buwFIAMNrNkpbLiAmeB8x4zxkpduerE8GCGTkNnKAS7DRiKuCPQb6qmjd9NfLYx3gXbQte%2FKVgeRO%2F%2BxMN53vP%2BIO4pz5432YxtnAlqwtMS4vN7w4V9%2FO8TxfgNqUQUxeOTJKxMa%2FLpdETAZr0TS1v384hgagWggTPGZ9%2FSF3ZrHOH73aP4ceZzow%3D%3D",
+      "itemLocation": {
+        "postalCode": "WA7***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3CsAAeSwi7Nq~hV5/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2goAAeSwGJlq~hV5/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2kMAAeSwBs1q~hV5/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2KcAAeSwsaFq~hV5/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "unitPricingMeasure": "Unit",
+      "unitPrice": {
+        "value": "234.70",
+        "currency": "GBP"
+      },
+      "legacyItemId": "237191003298",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T21:15:46.000Z",
+      "itemCreationDate": "2026-11-18T21:15:46.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|377617076696|0",
+      "title": "Nintendo Switch OLED Model 64GB Console Black w/ Blue/Red Joy-Con LAN Dock",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/tiYAAeSwliBq6X51/s-l225.jpg"
+      },
+      "price": {
+        "value": "170.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C377617076696%7C0",
+      "seller": {
+        "username": "niteni-0",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 113,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/tiYAAeSwliBq6X51/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "7.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-26T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "95"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/377617076696?_skw=nintendo+switch+oled&hash=item57ebbb51d8:g:tiYAAeSwliBq6X51&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7l8rrdPoULYHX0YiJbuQ60wOehcRsFl7M9qwz00pUF4%2BaXhga1hrCvGSFpn2TIpZKueWZSpY%2B4%2Fdu807PxrCRrlCqkwc9hYy%2Bfzp0AGn1vPFdyK5W2pNUT%2B8CKcZMISz11BiOsISVjwjcE42iQruHtVXLix%2FpR92WZx%2BQOciSSRo3ftiE2zbL27vuKCxsRyck0pwa0OwVZEaKLQiLcrvFVk23x3S7C7%2F8lD0PuXAUulmm3eR58ecoBFgT%2BZ6TSZsg%2BdSIQJhfpCbNQmTLpn2kdEgJ6fwuVNSV96WljtKYCO0Q%3D%3D",
+      "itemLocation": {
+        "postalCode": "UB1***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1JIAAeSwrt1q6X5g/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/cUMAAeSwWm1q6X5g/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/10YAAeSw1yVq6X5g/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1NoAAeSwJM1q6X5h/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1SMAAeSwLKBq6X5h/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1-UAAeSwz9Rq6X5h/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/14wAAeSwsA5q6X5i/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1d0AAeSwHohq6X5i/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1eIAAeSwc5Jq6X5i/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1UYAAeSwnT1q6X5j/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1w4AAeSwrTNq6X5j/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1okAAeSwh41q6X5j/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/0vIAAeSwxFdq6X5k/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1bwAAeSwI3Jq6X5k/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1OUAAeSw3L9q6X5k/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1lgAAeSwzgFq6X5k/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "377617076696",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-03T06:30:49.000Z",
+      "itemCreationDate": "2026-11-03T06:30:49.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    }
+  ]
+}

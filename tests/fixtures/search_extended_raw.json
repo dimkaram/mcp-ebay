@@ -1,0 +1,191 @@
+{
+  "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=nintendo+switch+oled&limit=5&fieldgroups=EXTENDED&offset=0",
+  "total": 3403,
+  "limit": 5,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|920157917208|0",
+      "title": "🟦🟥Nintendo Switch OLED Model 64GB Console Bundle -Neon Joy-Cons -Complete Set✅",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "shortDescription": "Rear housing and wide adjustable kickstand are in great, clean condition. For sale is a complete official Nintendo Switch OLED Model console bundle (64GB internal storage) in great pre-owned condition.",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/10UAAeSwR-tq~hH9/s-l225.jpg"
+      },
+      "price": {
+        "value": "114.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C920157917208%7C0",
+      "seller": {
+        "username": "willsgamingvault",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 911,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/10UAAeSwR-tq~hH9/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "4.90",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "155"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/920157917208?_skw=nintendo+switch+oled&hash=itemd63daf9018:g:10UAAeSwR-tq~hH9",
+      "itemLocation": {
+        "city": "Woodhall Spa",
+        "postalCode": "LN10***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2ckAAeSwNAVq~hJ~/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/17YAAeSwHr1q~hKC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/NnEAAeSwBehq~hKE/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3msAAeSwMcFq~hKG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1okAAeSw2VZq~hKL/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2xwAAeSwi7Nq~hKN/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/2X8AAeSwMHZq~hKP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1d4AAeSwSLFq~hKT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/17AAAeSwTqlq~hH-/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/28sAAeSwbB1q~hKa/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/1FkAAeSwnZJq~hH~/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "920157917208",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T21:03:29.000Z",
+      "itemCreationDate": "2026-11-18T21:03:29.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|840093028963|0",
+      "title": "Nintendo Switch OLED + Case & 128GB SD Card",
+      "leafCategoryIds": [
+        "139971"
+      ],
+      "categories": [
+        {
+          "categoryId": "139971",
+          "categoryName": "Video Game Consoles"
+        },
+        {
+          "categoryId": "1249",
+          "categoryName": "Video Games & Consoles"
+        }
+      ],
+      "shortDescription": "The Nintendo Switch OLED model, complete with case and 128GB SD card, offers a sleek and high-resolution gaming experience. With both handheld and home console capabilities, it provides versatile gameplay options. The included HDMI connectivity allows for easy setup at home, while the 64GB storage capacity ensures room for all your favourite games. The stylish white colour and 720p and 1080p resolution options enhance the overall gaming experience, making it a must-have for Nintendo enthusiasts.",
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/KN0AAeSwy0Jq62GH/s-l225.jpg"
+      },
+      "price": {
+        "value": "155.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C840093028963%7C0",
+      "seller": {
+        "username": "cambr-4150",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 68,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/KN0AAeSwy0Jq62GH/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "5.15",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-27T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "315"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "epid": "5048310008",
+      "itemWebUrl": "https://www.ebay.co.uk/itm/840093028963?_skw=nintendo+switch+oled&hash=itemc399725263:g:KN0AAeSwy0Jq62GH&amdata=enc%3AAQALAAABAOf5zIIojhOf%2BkQK%2Bxzjn7kKIZkX9t0QfM53jciOg4Wde8bqUnonZG%2FbcAQzP8kmgtEDXjDqgIoPxM3Zpu5Kr51a4aelx0Mffu2ophbWvExozFRaBqjHtVhEPrIp1SMyLpEr9U3jt1aFLTI5gjW5ytlESZBOD1CaEwy%2BRBZSX0pnEhywP16AKoB51ZsGzvU5blTYobJswty0AwHEVd4Pj0IVeuASrsBcMc8T3l59%2FpUcvw6Fyz4%2BOj08GZUe2RURgCO1HSIX3VoLzXONq1noUYJs59CuYlegV%2BXK5bHjbovQpSfbNobxMGOyRpUue0gERSpxdlWW29MTKlpbVbVJ%2BQw%3D",
+      "itemLocation": {
+        "city": "Largs",
+        "postalCode": "KA30***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JZQAAeSwvAdq62GH/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "840093028963",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-04T16:48:17.000Z",
+      "itemCreationDate": "2026-11-04T16:48:17.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    }
+  ]
+}
