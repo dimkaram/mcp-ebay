@@ -1,7 +1,8 @@
-"""Built-in MCP instructions: Part A of ``docs/brief.md``, adjusted to the live
-field checkpoint (``docs/field-checkpoint.md``) and to this server's tool names.
+"""Built-in MCP instructions: how Claude should use the tools to hunt for deals.
 
-Keep this text and Part A of the brief in sync.
+This is the single source for the instructions. They reflect the live field
+checkpoint (``docs/field-checkpoint.md``): which fields come from search and
+which only from get_listing_details.
 """
 
 INSTRUCTIONS = """\

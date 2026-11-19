@@ -3,7 +3,7 @@
 A read-only [MCP](https://modelcontextprotocol.io) server that lets Claude hunt for
 deals on eBay (eBay UK by default). The server only fetches and tidies listing data.
 Claude does the judging, ranking and advice, following the built-in instructions the
-server ships with (Part A of [`docs/brief.md`](docs/brief.md)).
+server ships with ([`src/ebay_mcp/instructions.py`](src/ebay_mcp/instructions.py)).
 
 There are no tools that bid, buy or touch an eBay account. It uses the public Buy Browse
 API with an application token only.
@@ -120,7 +120,7 @@ MCP_AUTH_TOKEN=… uv run fastmcp inspect src/ebay_mcp/cloud.py:mcp
 - `client.py`: the only module that calls eBay (filters, retries).
 - `models.py`: listing summary/details parsing (postage, auction fields).
 - `analysis.py`: pure functions: true-total budget check, location re-check, comparables statistics.
-- `instructions.py`: Part A, served as the MCP instructions.
+- `instructions.py`: how Claude should hunt for deals, served as the MCP instructions.
 - `server.py`: the three tools. `http_auth.py`: bearer-token verifier. `cloud.py`: FastMCP Cloud entrypoint.
 - `cli.py`: the `mcp-ebay` command.
 
