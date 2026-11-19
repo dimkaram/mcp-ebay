@@ -1,4 +1,4 @@
-"""ebay-mcp: serve eBay marketplace data to Claude over the Model Context Protocol.
+"""mcp-ebay: serve eBay marketplace data to Claude over the Model Context Protocol.
 
 The package is split into small, independently testable modules:
 
@@ -18,6 +18,14 @@ from __future__ import annotations
 
 __version__ = "0.1.0"
 
-from .models import Item, Money, SearchResult, Seller
+from .models import Listing, ListingDetails, Money, Postage, SearchResult, Seller
 
-__all__ = ["Item", "Money", "SearchResult", "Seller", "__version__"]
+__all__ = [
+    "Listing",
+    "ListingDetails",
+    "Money",
+    "Postage",
+    "SearchResult",
+    "Seller",
+    "__version__",
+]

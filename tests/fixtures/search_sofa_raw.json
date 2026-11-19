@@ -1,0 +1,1345 @@
+{
+  "total": 5796,
+  "limit": 15,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|407367990478|0",
+      "title": "Leather 3 Seater Sofa Vintage Mid Century Danish Style Tan Brown Chesterfield",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/LGQAAeSwXf9q-3aG/s-l225.jpg"
+      },
+      "price": {
+        "value": "560.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C407367990478%7C0",
+      "seller": {
+        "username": "oldsofaco",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 198,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/LGQAAeSwXf9q-3aG/s-l1200.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "150.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-12-04T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-11T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "60"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/407367990478?_skw=chesterfield+sofa&hash=item5ed9063cce:g:LGQAAeSwXf9q-3aG",
+      "itemLocation": {
+        "postalCode": "EX10***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/RHkAAeSw7o1q-3aG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JS4AAeSwe~5q-3aG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/roEAAeSwB-tq-3aG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Iz4AAeSwyttq-3aH/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/I64AAeSwgcxq-3aH/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JnQAAeSwnrpq-3aH/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/hKMAAeSwBehq-3aI/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/s3gAAeSwqblq-3aI/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/g9kAAeSwI~Fq-3aK/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/I~AAAeSwQwRq-3aK/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "407367990478",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-16T21:57:59.000Z",
+      "itemCreationDate": "2026-11-16T21:57:59.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|156115067026|456883675594",
+      "title": "Large 2 seater Chesterfield Style Button Sofa Couch Linen Fabric Settee Victoria",
+      "itemGroupHref": "https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=156115067026",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/fwYAAOSwvq9l8Flp/s-l225.jpg"
+      },
+      "price": {
+        "value": "249.99",
+        "currency": "GBP"
+      },
+      "itemGroupType": "SELLER_DEFINED_VARIATIONS",
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C156115067026%7C456883675594",
+      "seller": {
+        "username": "mcc_outlet",
+        "feedbackPercentage": "99.4",
+        "feedbackScore": 104038,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/fwYAAOSwvq9l8Flp/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-30T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "125"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/156115067026?_skw=chesterfield+sofa&hash=item24592ee092:g:fwYAAOSwvq9l8Flp&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7kWVx07Ge5mNsjyP1kJcuMtzF2SWSdmKz5v7pBP6ucbEk1xdWqzi2XO%2FTFAi1Kh%2FVAtQdwzWtGV5yAOvPD2We0rS5YbOvsCvKIR0CliTgcO%2FR1ceQNkrvcOer6LwXR3xczdiCO9tzZAUekPHnErOxgtcovfTa9WxTFwayHPsu1SxcnozWea0UH1Rw20q0NwP%2BdbB2ms%2Fm%2B0ainWydshDHsABvx71cVFeIyGM1iVQiPF2%2BbAnA5inzuBQBkKolTqcUaOgLEdh77YAYUEeujY2nTxivqtBrSjP4cQe60yaIqzcA%3D%3D",
+      "itemLocation": {
+        "postalCode": "DE5***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/c9gAAOSwpaNl8Fnp/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/7r0AAOSw-ipl8Fnt/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/g7oAAOSwXgxl8Fnx/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "156115067026",
+      "availableCoupons": false,
+      "itemOriginDate": "2024-03-13T04:53:20.000Z",
+      "itemCreationDate": "2024-03-13T04:53:20.000Z",
+      "topRatedBuyingExperience": true,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|900096256905|0",
+      "title": "Brown Leather Chesterfield Sofa Tufted Back Scroll Arms 220x90x75cm",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/dEEAAeSw69Rq-xQM/s-l225.jpg"
+      },
+      "price": {
+        "value": "208.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C900096256905%7C0",
+      "seller": {
+        "username": "jazh-3500",
+        "feedbackPercentage": "0.0",
+        "feedbackScore": 0,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/dEEAAeSw69Rq-xQM/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "13.63",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-27T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "110"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/900096256905?_skw=chesterfield+sofa&hash=itemd191eaeb89:g:dEEAAeSw69Rq-xQM&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7kn6D%2FzSjfegkevR2Eg%2B4qa1mjrckSmMR%2FeFJhuCJZduk7e9GBOO6I0iBuKj23a8tcSY%2Bn4UlEcQd4jAKbMa95FNGN14NtygCH3ePutfvLOiLLmVYFVTBPlDp64Z6nV70n7TzeX5bk6chZKE1kSgKqQErKmUSzcs3zaRfsmHSxln6Qzh3yTk40CkZlF2C5axeoCo1lkFwCczPXiHnwuxPjJ3d4BF%2FGN5kvHxaeQvkk%2BpJsQQ36oJqKZg0DYI1ZgesOwX4CqkqxFFzrJdC%2BR3Qwxtg2OGsyBPzbIYLIhnOFc2Q%3D%3D",
+      "itemLocation": {
+        "postalCode": "SW8***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/~cMAAeSwtb9q-xQD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/~dIAAeSwgTRq-xQD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/mOgAAeSwEglq-xQD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/-wMAAeSwDwdq-xQD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ne4AAeSw7Rdq-xQD/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "900096256905",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-16T14:41:36.000Z",
+      "itemCreationDate": "2026-11-16T14:41:36.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|176675918038|0",
+      "title": "2 Seater Real Genuine Leather Chesterfield Sofa Brown Tan Hard Wood Frame 158cm",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/vM0AAeSweGlqJp0L/s-l225.jpg"
+      },
+      "price": {
+        "value": "799.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C176675918038%7C0",
+      "seller": {
+        "username": "elm-homeandgarden",
+        "feedbackPercentage": "99.7",
+        "feedbackScore": 5765,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/vM0AAeSweGlqJp0L/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-01T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "150"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/176675918038?_skw=chesterfield+sofa&hash=item2922b490d6:g:vM0AAeSweGlqJp0L",
+      "itemLocation": {
+        "postalCode": "S61***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/5qAAAeSwROFqJp0J/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/HOQAAOSwKNtnNI6a/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/R9sAAOSwM-VnMg9i/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/snkAAOSw671nMg9i/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/7foAAOSwiF5nMg9j/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/EGQAAOSwb8xnMg9j/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/mGIAAOSwKrZnMg9j/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "176675918038",
+      "availableCoupons": false,
+      "itemOriginDate": "2024-11-11T14:54:38.000Z",
+      "itemCreationDate": "2024-11-11T14:54:38.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|167637649530|467251940029",
+      "title": "CHESTERFIELD OX RED FAUX LEATHER SOFA SET SUITES SETTEE  3 2 1 SEATER ",
+      "itemGroupHref": "https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=167637649530",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/IpEAAeSwGCdobqBd/s-l225.jpg"
+      },
+      "price": {
+        "value": "439.99",
+        "currency": "GBP"
+      },
+      "itemGroupType": "SELLER_DEFINED_VARIATIONS",
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C167637649530%7C467251940029",
+      "seller": {
+        "username": "ukleisureworld",
+        "feedbackPercentage": "98.4",
+        "feedbackScore": 5934,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/IpEAAeSwGCdobqBd/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-21T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z"
+        }
+      ],
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/167637649530?_skw=chesterfield+sofa&hash=item2707fb887a:g:IpEAAeSwGCdobqBd",
+      "itemLocation": {
+        "country": "GB"
+      },
+      "adultOnly": false,
+      "legacyItemId": "167637649530",
+      "availableCoupons": false,
+      "itemOriginDate": "2025-07-09T17:01:28.000Z",
+      "itemCreationDate": "2025-07-09T17:01:28.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|257760724931|558306492796",
+      "title": "Chesterfield Leather Antique Sofa 3+2+1 Suite Set",
+      "itemGroupHref": "https://api.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=257760724931",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/TnwAAeSwJitqs7Cx/s-l225.jpg"
+      },
+      "price": {
+        "value": "604.99",
+        "currency": "GBP"
+      },
+      "itemGroupType": "SELLER_DEFINED_VARIATIONS",
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C257760724931%7C558306492796",
+      "seller": {
+        "username": "furnitureinstore",
+        "feedbackPercentage": "97.9",
+        "feedbackScore": 23803,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/TnwAAeSwJitqs7Cx/s-l960.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-01T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "85"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/257760724931?_skw=chesterfield+sofa&hash=item3c03bc87c3:g:TnwAAeSwJitqs7Cx",
+      "itemLocation": {
+        "postalCode": "CV6***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/kc8AAeSwkedqs7DT/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/UZsAAeSwghxqs7Dl/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/UiQAAeSwDONqs7Dw/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Wv0AAeSwXQVqs7EJ/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/W3kAAeSwUupqs7EU/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/VW0AAeSwokRqs7Ee/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/70QAAeSwvbtqs7Es/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/VjoAAeSwghxqs7FF/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/-AQAAeSwbz5qs7FP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/K3EAAeSwHJdqs7FX/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Xv8AAeSwi8tqs7Fh/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/nMwAAeSwLQtqs7Gr/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/n04AAeSwXGNqs7G8/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/XGgAAeSwR8Rqs7HC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/oPIAAeSwRddqs7HR/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/SNUAAeSwHJdqs7Mv/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/vJ4AAeSwA3Fqs7Nq/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "257760724931",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-09-23T12:57:39.000Z",
+      "itemCreationDate": "2026-09-23T12:57:39.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|177515185723|0",
+      "title": "Genuine Real Brown Tan Leather 3 Seater Chesterfield Sofa 2 And 1 Available",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/uLwAAeSw4W5o-jyP/s-l225.jpg"
+      },
+      "price": {
+        "value": "989.10",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C177515185723%7C0",
+      "seller": {
+        "username": "elm-homeandgarden",
+        "feedbackPercentage": "99.7",
+        "feedbackScore": 5765,
+        "sellerAccountType": "BUSINESS"
+      },
+      "marketingPrice": {
+        "originalPrice": {
+          "value": "1099.00",
+          "currency": "GBP"
+        },
+        "discountPercentage": "10",
+        "discountAmount": {
+          "value": "109.90",
+          "currency": "GBP"
+        },
+        "priceTreatment": "MARKDOWN"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/uLwAAeSw4W5o-jyP/s-l1600.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-24T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-12-01T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "205"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/177515185723?_skw=chesterfield+sofa&hash=item2954bac63b:g:uLwAAeSw4W5o-jyP",
+      "itemLocation": {
+        "postalCode": "YO17***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/nAAAAeSwtMZo-jyP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/LvEAAeSwzoVo-jyQ/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/K88AAeSwI9lo-jyQ/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/rdwAAeSwBZNo-jyP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/J8cAAeSwDi9o-jyP/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/lfEAAeSwvrlo-jyQ/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "177515185723",
+      "availableCoupons": false,
+      "itemOriginDate": "2025-10-23T14:35:02.000Z",
+      "itemCreationDate": "2025-10-23T14:35:02.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|336861657500|0",
+      "title": "EFL Oakland 3+2 Tan Leather Brown Sofa - 12 Months Manufacturers Warranty",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/ZZYAAeSwjY5q2Uxx/s-l225.jpg"
+      },
+      "price": {
+        "value": "549.99",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C336861657500%7C0",
+      "seller": {
+        "username": "elitefoam",
+        "feedbackPercentage": "0.0",
+        "feedbackScore": 0,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ZZYAAeSwjY5q2Uxx/s-l1200.jpg"
+        }
+      ],
+      "shippingOptions": [
+        {
+          "shippingCostType": "FIXED",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "GBP"
+          },
+          "minEstimatedDeliveryDate": "2026-11-23T00:00:00.000Z",
+          "maxEstimatedDeliveryDate": "2026-11-28T00:00:00.000Z"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "160"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/336861657500?_skw=chesterfield+sofa&hash=item4e6e84f99c:g:ZZYAAeSwjY5q2Uxx",
+      "itemLocation": {
+        "postalCode": "BB1***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/arYAAeSw~q1q2Uxy/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ZFsAAeSwVjZq2Uxz/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ZEoAAeSwU3Nq2Uxz/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "336861657500",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-10-23T04:06:49.000Z",
+      "itemCreationDate": "2026-10-25T00:58:10.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|940096609988|0",
+      "title": "3 Seater Chesterfield Sofa Couch Faux Leather In Antique Grey Ex-Display",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/cP0AAeSwUs9q-txn/s-l225.jpg"
+      },
+      "price": {
+        "value": "393.61",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C940096609988%7C0",
+      "seller": {
+        "username": "nudesigns",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 159,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "New other (see details)",
+      "conditionId": "1500",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/cP0AAeSwUs9q-txn/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "25"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/940096609988?_skw=chesterfield+sofa&hash=itemdae21fdec4:g:cP0AAeSwUs9q-txn&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7mVEVExApNO5Rxbpn6GmlcOffcev6GvB4vF%2B%2BXQZ6M98Cvy2pQ1ypTVqFRl6nyx%2Bgbq2QyRcn63VWzSKXDRYCT3a6UyTbDUhqArgOnuU1tXICCbPTM0v1NamOMG79biSFQFuiEKS5gejwZ1ljgDYVNo7IomqNP75%2FH%2BZnyrnLv1WmrjoZLgsQ49W%2F2Mu%2FDg1Hnx0SpyKW66UWdSI7vVWehWFlD64aTsSGa5h8lF4BwTEJB%2Bcui9EHmdBI32ldOrPDiV5UpoHf3IO3FHFLrx8WF4tQwEsG3K7eY2sQx3TVm3Fw%3D%3D",
+      "itemLocation": {
+        "postalCode": "BA13***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/44wAAeSwLEZq-txn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/44EAAeSwMcFq-txn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4N8AAeSwy0lq-txn/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "940096609988",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-16T10:38:06.000Z",
+      "itemCreationDate": "2026-11-16T10:38:06.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|177792881319|0",
+      "title": "handmade 2 seater leather chesterfield sofa used",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/R4kAAeSwqghpb3~5/s-l225.jpg"
+      },
+      "price": {
+        "value": "516.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C177792881319%7C0",
+      "seller": {
+        "username": "matilda-1",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 214,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "New other (see details)",
+      "conditionId": "1500",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/R4kAAeSwqghpb3~5/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "120"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/177792881319?_skw=chesterfield+sofa&hash=item29654812a7:g:R4kAAeSwqghpb3~5&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7lvhfsoU%2BoADdSHpsr93uRcmsND7zX%2BEIQaJdWmnB9bcA%2B9k1eq3BApLFs6YGWZvnLwS%2Fsf%2Fh4UfWbNn2T6yZ5fwfk4g4A%2FQFvptzvmPEHHDfNTLqCBMzKfvLRM8etrVpBYw8qJozqmJJnFlOLtX4RUZQOx45bBQvIlEecwzH4ql192FKdXHP5m9iK2CMaOO5uAotjzjq%2FmFG314M9c08zb19HN3viwYxGcEbg4D27tiBHSFS9uHpSvjCXwZDLC9hxB3EyFg65eUcHNgcMkRJEITqNRKdqO0H9W6syybNSHZQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "DA16***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/UEMAAeSwBOlqQ-tK/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "177792881319",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-01-20T13:38:08.000Z",
+      "itemCreationDate": "2026-01-20T13:38:08.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|327463965982|0",
+      "title": "Balack Chesterfield  Fabric Sofa",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/V1EAAeSwZmZq~kJm/s-l225.jpg"
+      },
+      "price": {
+        "value": "812.50",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C327463965982%7C0",
+      "seller": {
+        "username": "i.s512",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 96,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "New",
+      "conditionId": "1000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/V1EAAeSwZmZq~kJm/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "105"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/327463965982?_skw=chesterfield+sofa&hash=item4c3e5f951e:g:V1EAAeSwZmZq~kJm&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7loi3dLBHDnYqJDih7FCrk%2BnRpvAp0WOqfXoPpQtdiGi3xgJInE1nn7WllE4vngrEMU7pPh3xQi53S6ycLBXD92qdwbVstHKgHaKwsL0pGrzzp9UWAyxIU6wvZ7PfZ0XHK2APUg4HiAL8t40XX4TVJdUCIRr863r1SzdRTJKkfTltrudtEedkpV%2FZp1AkW7ItY7bAa0c%2BjGvhd4f1Seup%2F0DrjsMK6FTtEkzD%2BVhEnuqQhojzFvt1xx4pOvvYUfdp%2B71l881wtcduopyoeolyq3NSZLHSHVJsZzfiFibcTLQw%3D%3D",
+      "itemLocation": {
+        "postalCode": "NN15***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JU8AAeSwI~9q~kJn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/JM0AAeSw8fxq~kJn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/Ij0AAeSw2cVq~kJn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/CIkAAeSwJitq~kJn/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ORkAAeSwPfpq~kJo/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/KPEAAeSw2cdq~kJo/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/HjMAAeSw9nhq~kJo/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/KDAAAeSwa3lq~kJp/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/AS0AAeSwitdq~kJo/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "327463965982",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-19T01:15:01.000Z",
+      "itemCreationDate": "2026-11-19T01:15:01.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|336797113672|0",
+      "title": "Wayfair Brown Leather Chesterfield Style 3 Seater Sofa 212x96x98cm",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/VV0AAeSwjEBqo0F4/s-l225.jpg"
+      },
+      "price": {
+        "value": "271.10",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C336797113672%7C0",
+      "seller": {
+        "username": "sdari15",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 2,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/VV0AAeSwjEBqo0F4/s-l225.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "120"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/336797113672?_skw=chesterfield+sofa&hash=item4e6aac1d48:g:VV0AAeSwjEBqo0F4&amdata=enc%3AAQALAAAA8Of5zIIojhOf%2BkQK%2Bxzjn7n%2BwRElRIaNRoEy%2BuAhyyBVygde5%2FaKs9d3PPJSMYHpmK%2FP1ieKXQvv5TVqVrvXW4wAekx%2FraimCQT7xXxTXvEbfub%2FoJ4LfcQzn1TFf57fvuvfB1xPoJ86Gel%2BagLp6xcTL%2ByTcwQTWZPzTgE7buHFJ%2F1xWsYWIlApxw3skO6%2Fjo99IJE%2BV6uAjwc7vvPASe%2B33t0fPMveI%2Fa4kookmH4ZOEw4DN7V0RQNMT7wQyxL3LJt8plgRTzRQD88quD6ZmUcdhJ8LCeSHufNjtiwzQiWgFiIICcYRtQ9ylBtKhl0nQ%3D%3D",
+      "itemLocation": {
+        "postalCode": "DA5***",
+        "country": "GB"
+      },
+      "adultOnly": false,
+      "legacyItemId": "336797113672",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-09-10T23:50:38.000Z",
+      "itemCreationDate": "2026-09-16T20:48:03.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": true,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|117528346689|0",
+      "title": "Three Seater and Two Seater Chesterfield Sofas Green Leather Suite",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/owEAAeSwy2dq~Zob/s-l225.jpg"
+      },
+      "price": {
+        "value": "465.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C117528346689%7C0",
+      "seller": {
+        "username": "hereford4wd",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 167,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/owEAAeSwy2dq~Zob/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "45"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/117528346689?_skw=chesterfield+sofa&hash=item1b5d3c4041:g:owEAAeSwy2dq~Zob",
+      "itemLocation": {
+        "postalCode": "HR2***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/RWwAAeSw7Rdq~Zoc/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "117528346689",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-18T12:25:45.000Z",
+      "itemCreationDate": "2026-11-18T12:25:45.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|407364557281|0",
+      "title": "Grey Chesterfield 2 Seater Sofa Tufted Scroll Arms With Cushions",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/LIcAAeSwA9Fq-ZKu/s-l225.jpg"
+      },
+      "price": {
+        "value": "78.70",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C407364557281%7C0",
+      "seller": {
+        "username": "gav-976722",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 74,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/LIcAAeSwA9Fq-ZKu/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "50"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/407364557281?_skw=chesterfield+sofa&hash=item5ed8d1d9e1:g:LIcAAeSwA9Fq-ZKu",
+      "itemLocation": {
+        "postalCode": "WR13***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/8KYAAeSw5wFq-ZKr/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/b04AAeSwPQhq-ZKr/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/b30AAeSw2R5q-ZKr/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/~74AAeSwQ61q-ZKs/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "407364557281",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-11-15T11:14:29.000Z",
+      "itemCreationDate": "2026-11-15T11:14:29.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    },
+    {
+      "itemId": "v1|168769981690|0",
+      "title": "brown leather chesterfield 3 seater sofa",
+      "leafCategoryIds": [
+        "38208"
+      ],
+      "categories": [
+        {
+          "categoryId": "38208",
+          "categoryName": "Sofas, Armchairs & Couches"
+        },
+        {
+          "categoryId": "3197",
+          "categoryName": "Furniture"
+        },
+        {
+          "categoryId": "11700",
+          "categoryName": "Home, Furniture & DIY"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/4voAAeSw-PlqxVqC/s-l225.jpg"
+      },
+      "price": {
+        "value": "680.00",
+        "currency": "GBP"
+      },
+      "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C168769981690%7C0",
+      "seller": {
+        "username": "dffurniture-dfandgracieprints",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 17,
+        "sellerAccountType": "BUSINESS"
+      },
+      "condition": "Used",
+      "conditionId": "3000",
+      "thumbnailImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/4voAAeSw-PlqxVqC/s-l1600.jpg"
+        }
+      ],
+      "pickupOptions": [
+        {
+          "pickupLocationType": "ARRANGED_LOCATION"
+        }
+      ],
+      "distanceFromPickupLocation": {
+        "unitOfMeasure": "mi",
+        "value": "15"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "itemWebUrl": "https://www.ebay.co.uk/itm/168769981690?_skw=chesterfield+sofa&hash=item274b798cfa:g:4voAAeSw-PlqxVqC",
+      "itemLocation": {
+        "postalCode": "NP16***",
+        "country": "GB"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/5TMAAeSwHP9qxVqC/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/jgMAAeSwIWFqxVqD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/x5kAAeSwRnVqxVqD/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/5mYAAeSwELtqxVqE/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3dYAAeSws9pqxVqE/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/ZS8AAeSwgVNqxVqF/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/5cgAAeSwKwxqxVqF/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/rgcAAeSwFj5qxVqG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/3VAAAeSwcH1qxVqG/s-l225.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/5coAAeSwKwxqxVqG/s-l225.jpg"
+        }
+      ],
+      "adultOnly": false,
+      "legacyItemId": "168769981690",
+      "availableCoupons": false,
+      "itemOriginDate": "2026-10-06T20:33:28.000Z",
+      "itemCreationDate": "2026-10-06T20:33:28.000Z",
+      "topRatedBuyingExperience": false,
+      "priorityListing": false,
+      "listingMarketplaceId": "EBAY_GB"
+    }
+  ]
+}

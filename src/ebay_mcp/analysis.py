@@ -1,26 +1,31 @@
-"""Pure price- and market-analysis functions over collections of :class:`Item`.
+"""Pure functions over :class:`~ebay_mcp.models.Listing` collections.
 
-Everything here is side-effect free and operates on in-memory item lists, so it
-can be unit-tested without any network access. The MCP server is responsible for
-fetching items via :class:`~ebay_mcp.client.EbayClient` and handing them here.
+No network access here: the server fetches listings and hands them in. The MCP
+only tidies data. Judging, ranking and advice are left to Claude, so this
+module does just three mechanical jobs:
 
-A note on money: a single search can mix currencies (e.g. international sellers
-on EBAY_US). Rather than silently averaging USD with EUR, :func:`extract_prices`
-isolates the dominant currency and reports how many items were excluded, so every
-statistic carries a single, unambiguous currency.
+* :func:`apply_max_total` -- enforce a maximum *total* (item + postage) that
+  eBay's own price filter can't express.
+* :func:`filter_location` -- re-check the item-location restriction in code.
+* :func:`comparable_statistics` -- p25 / median / max over the comparables
+  Claude has chosen.
 """
 
 from __future__ import annotations
 
 import math
 import statistics
-from collections import Counter
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
+from dataclasses import dataclass
+from typing import Any
 
-from .models import Item
+from .models import Listing
+
+MIN_SAMPLE = 5
+PERCENTILE_METHOD = "linear interpolation between closest ranks (numpy default)"
 
 
-def _percentile(sorted_values: Sequence[float], q: float) -> float | None:
+def percentile(sorted_values: Sequence[float], q: float) -> float | None:
     """Linear-interpolation percentile (``q`` in ``[0, 100]``) over sorted data."""
 
     if not sorted_values:
@@ -28,230 +33,172 @@ def _percentile(sorted_values: Sequence[float], q: float) -> float | None:
     if len(sorted_values) == 1:
         return float(sorted_values[0])
     rank = (q / 100.0) * (len(sorted_values) - 1)
-    low = math.floor(rank)
-    high = math.ceil(rank)
+    low, high = math.floor(rank), math.ceil(rank)
     if low == high:
         return float(sorted_values[low])
     frac = rank - low
     return float(sorted_values[low] + (sorted_values[high] - sorted_values[low]) * frac)
 
 
-def extract_prices(
-    items: Sequence[Item], *, use_total_cost: bool = True
-) -> tuple[list[float], str | None, int]:
-    """Return ``(prices, currency, excluded)`` for the dominant currency.
+# -- budget ------------------------------------------------------------------
 
-    ``prices`` are the values (total cost incl. shipping by default, otherwise the
-    listed item price) for every item in the most common currency. ``excluded`` is
-    the number of items dropped because they used a different currency or lacked a
-    price.
+
+@dataclass(frozen=True, slots=True)
+class BudgetCheck:
+    """Outcome of checking one listing against a maximum total.
+
+    ``status`` is ``"within"`` (a verified total is within budget),
+    ``"postage_unknown"`` (item price fits but the total can't be verified) or
+    ``"over"`` (dropped).
     """
 
-    by_currency: dict[str, list[float]] = {}
-    no_price = 0
-    for item in items:
-        if item.price is None:
-            no_price += 1
+    status: str
+    note: str | None = None
+
+
+def check_budget(listing: Listing, max_total: float) -> BudgetCheck:
+    paths: list[BudgetCheck] = []
+    postage_known = listing.postage.known
+
+    if listing.is_buy_it_now and listing.buy_it_now_price is not None:
+        if postage_known:
+            ok = listing.total_cost is not None and listing.total_cost <= max_total
+            paths.append(BudgetCheck("within" if ok else "over"))
+        elif listing.buy_it_now_price.value <= max_total:
+            paths.append(BudgetCheck("postage_unknown"))
+
+    if listing.is_auction and listing.current_bid is not None:
+        if postage_known:
+            total = listing.current_bid_total
+            if total is not None and total <= max_total:
+                note = (
+                    "Buy It Now total is over budget; only the auction is within it."
+                    if paths and paths[0].status == "over"
+                    else None
+                )
+                paths.append(BudgetCheck("within", note))
+            else:
+                paths.append(BudgetCheck("over"))
+        elif listing.current_bid.value <= max_total:
+            paths.append(BudgetCheck("postage_unknown"))
+
+    for wanted in ("within", "postage_unknown"):
+        for path in paths:
+            if path.status == wanted:
+                return path
+    return BudgetCheck("over")
+
+
+def apply_max_total(
+    listings: Iterable[Listing], max_total: float | None
+) -> tuple[list[tuple[Listing, BudgetCheck | None]], int]:
+    """Keep listings whose true total can fit ``max_total``.
+
+    Returns ``(kept, dropped)``; each kept listing carries its
+    :class:`BudgetCheck` (``None`` when no budget was given).
+    """
+
+    kept: list[tuple[Listing, BudgetCheck | None]] = []
+    dropped = 0
+    for listing in listings:
+        if max_total is None:
+            kept.append((listing, None))
             continue
-        value = item.total_cost if use_total_cost else item.price.value
-        if value is None:
-            no_price += 1
-            continue
-        by_currency.setdefault(item.price.currency, []).append(value)
-
-    if not by_currency:
-        return [], None, no_price
-
-    currency = max(by_currency, key=lambda c: len(by_currency[c]))
-    prices = by_currency[currency]
-    excluded = no_price + sum(len(v) for c, v in by_currency.items() if c != currency)
-    return prices, currency, excluded
+        check = check_budget(listing, max_total)
+        if check.status == "over":
+            dropped += 1
+        else:
+            kept.append((listing, check))
+    return kept, dropped
 
 
-def price_statistics(items: Sequence[Item], *, use_total_cost: bool = True) -> dict[str, object]:
-    """Compute a price distribution summary for ``items``."""
+def filter_location(listings: Iterable[Listing], country: str | None) -> tuple[list[Listing], int]:
+    """Drop listings located outside ``country``. Returns ``(kept, dropped)``."""
 
-    prices, currency, excluded = extract_prices(items, use_total_cost=use_total_cost)
-    if not prices:
-        return {
-            "count": 0,
-            "currency": currency,
-            "excluded": excluded,
-            "basis": "total_cost" if use_total_cost else "item_price",
-        }
-
-    ordered = sorted(prices)
-    return {
-        "count": len(ordered),
-        "currency": currency,
-        "excluded": excluded,
-        "basis": "total_cost" if use_total_cost else "item_price",
-        "min": round(ordered[0], 2),
-        "max": round(ordered[-1], 2),
-        "mean": round(statistics.fmean(ordered), 2),
-        "median": round(statistics.median(ordered), 2),
-        "p25": round(_percentile(ordered, 25), 2),
-        "p75": round(_percentile(ordered, 75), 2),
-        "p90": round(_percentile(ordered, 90), 2),
-        "stdev": round(statistics.pstdev(ordered), 2) if len(ordered) > 1 else 0.0,
-    }
+    items = list(listings)
+    if not country:
+        return items, 0
+    kept = [i for i in items if (i.location_country or "").upper() in ("", country.upper())]
+    return kept, len(items) - len(kept)
 
 
-def find_deals(
-    items: Sequence[Item],
+# -- comparables ---------------------------------------------------------------
+
+
+def comparable_statistics(
+    requested_ids: Sequence[str],
+    listings: dict[str, Listing],
     *,
-    threshold: float = 0.20,
-    limit: int = 10,
-) -> dict[str, object]:
-    """Surface listings priced meaningfully below the market median.
+    not_found: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    """Price statistics over the comparables Claude selected.
 
-    A "deal" is an item whose total cost is at least ``threshold`` (default 20%)
-    below the median total cost of all same-currency items. Each deal carries a
-    ``discount`` fraction so Claude can rank and explain them.
+    Only Buy It Now listings with a known postage figure count: an auction's
+    current bid isn't a comparable price, and unknown postage would distort the
+    total. Everything else is reported in ``excluded`` with a reason. With fewer
+    than :data:`MIN_SAMPLE` comparables the percentile figures are withheld.
     """
 
-    prices, currency, excluded = extract_prices(items, use_total_cost=True)
-    if len(prices) < 3:
-        return {
-            "deals": [],
-            "currency": currency,
-            "reference_median": None,
-            "note": "Not enough comparable listings to establish a market median.",
-        }
+    not_found = dict(not_found or {})
+    included: list[tuple[str, float, str]] = []
+    excluded: list[dict[str, str]] = []
+    seen: set[str] = set()
 
-    median = statistics.median(prices)
-    cutoff = median * (1.0 - threshold)
-
-    deals = []
-    for item in items:
-        if item.price is None or item.price.currency != currency:
+    for item_id in requested_ids:
+        if item_id in seen:
             continue
-        total = item.total_cost
-        if total is None or total > cutoff or median <= 0:
+        seen.add(item_id)
+        listing = listings.get(item_id)
+        if listing is None:
+            reason = not_found.get(item_id, "listing not found")
+            excluded.append({"item_id": item_id, "reason": reason})
             continue
-        deals.append(
-            {
-                "discount": round((median - total) / median, 4),
-                "total_cost": total,
-                "item": item.to_dict(),
-            }
-        )
+        if not listing.is_buy_it_now or listing.buy_it_now_price is None:
+            excluded.append(
+                {"item_id": item_id, "reason": "auction only: current bid is not a comparable"}
+            )
+            continue
+        if not listing.postage.known or listing.total_cost is None:
+            excluded.append({"item_id": item_id, "reason": "postage unknown"})
+            continue
+        included.append((item_id, listing.total_cost, listing.buy_it_now_price.currency))
 
-    deals.sort(key=lambda d: d["discount"], reverse=True)
-    return {
+    # Keep a single currency (the most common) so figures are unambiguous.
+    currency = None
+    if included:
+        counts: dict[str, int] = {}
+        for _, _, cur in included:
+            counts[cur] = counts.get(cur, 0) + 1
+        currency = max(counts, key=counts.__getitem__)
+        for item_id, _, cur in [x for x in included if x[2] != currency]:
+            excluded.append({"item_id": item_id, "reason": f"different currency ({cur})"})
+        included = [x for x in included if x[2] == currency]
+
+    included.sort(key=lambda x: x[1])
+    totals = [t for _, t, _ in included]
+    n = len(totals)
+    result: dict[str, Any] = {
+        "basis": "total cost = Buy It Now price + postage",
         "currency": currency,
-        "reference_median": round(median, 2),
-        "threshold": threshold,
+        "count": n,
+        "min_sample": MIN_SAMPLE,
+        "low_confidence": n < MIN_SAMPLE,
+        "prices": [{"item_id": i, "total_cost": t} for i, t, _ in included],
         "excluded": excluded,
-        "deal_count": len(deals),
-        "deals": deals[:limit],
     }
-
-
-def _counter_to_list(counter: Counter[str], n: int | None = None) -> list[dict[str, object]]:
-    return [{"name": name, "count": count} for name, count in counter.most_common(n)]
-
-
-def market_research(items: Sequence[Item], *, query: str | None = None) -> dict[str, object]:
-    """Build a comprehensive market overview for a set of listings."""
-
-    if not items:
-        return {
-            "query": query,
-            "sample_size": 0,
-            "price_statistics": price_statistics(items),
-            "observations": ["No listings were returned for this query."],
-        }
-
-    price_stats = price_statistics(items, use_total_cost=True)
-    item_price_stats = price_statistics(items, use_total_cost=False)
-
-    condition_counts: Counter[str] = Counter(i.condition or "Unspecified" for i in items)
-    buying_counts: Counter[str] = Counter(opt for i in items for opt in i.buying_options)
-    location_counts: Counter[str] = Counter(
-        i.item_location_country for i in items if i.item_location_country
-    )
-
-    free = sum(1 for i in items if i.free_shipping)
-    paid = sum(1 for i in items if i.shipping_cost and i.shipping_cost.value > 0)
-    unknown = len(items) - free - paid
-
-    # Per-condition price medians, where there are enough samples to be meaningful.
-    price_by_condition: dict[str, object] = {}
-    for cond in condition_counts:
-        subset = [i for i in items if (i.condition or "Unspecified") == cond]
-        stats = price_statistics(subset, use_total_cost=True)
-        if stats["count"]:
-            price_by_condition[cond] = {
-                "count": stats["count"],
-                "median": stats.get("median"),
-                "min": stats.get("min"),
-                "max": stats.get("max"),
+    if n >= MIN_SAMPLE:
+        result.update(
+            {
+                "p25": round(percentile(totals, 25), 2),
+                "median": round(statistics.median(totals), 2),
+                "min": totals[0],
+                "max": totals[-1],
+                "percentile_method": PERCENTILE_METHOD,
             }
-
-    feedbacks = [
-        i.seller.feedback_percentage
-        for i in items
-        if i.seller and i.seller.feedback_percentage is not None
-    ]
-
-    report: dict[str, object] = {
-        "query": query,
-        "sample_size": len(items),
-        "price_statistics": price_stats,
-        "item_price_statistics": item_price_stats,
-        "condition_breakdown": _counter_to_list(condition_counts),
-        "price_by_condition": price_by_condition,
-        "buying_options": _counter_to_list(buying_counts),
-        "top_seller_locations": _counter_to_list(location_counts, 10),
-        "shipping": {
-            "free": free,
-            "paid": paid,
-            "unknown": unknown,
-        },
-        "seller_feedback": {
-            "samples": len(feedbacks),
-            "mean_percentage": round(statistics.fmean(feedbacks), 2) if feedbacks else None,
-        },
-        "observations": _observations(items, price_stats, condition_counts, free),
-    }
-    return report
-
-
-def _observations(
-    items: Sequence[Item],
-    price_stats: dict[str, object],
-    conditions: Counter[str],
-    free_shipping: int,
-) -> list[str]:
-    """Plain-language takeaways so Claude can summarise without re-deriving them."""
-
-    notes: list[str] = []
-    count = price_stats.get("count", 0)
-    if not count:
-        return ["No comparable prices were available for this query."]
-
-    currency = price_stats.get("currency")
-    notes.append(
-        f"{count} comparable listings priced from {price_stats['min']} to "
-        f"{price_stats['max']} {currency} (median {price_stats['median']})."
-    )
-
-    spread = price_stats.get("p75", 0) - price_stats.get("p25", 0)
-    median = price_stats.get("median") or 0
-    if median and spread / median > 0.6:
-        notes.append(
-            "Wide price spread between the 25th and 75th percentiles -- condition, "
-            "bundling, or seller reputation likely drive the variance."
         )
-
-    top_condition, top_count = conditions.most_common(1)[0]
-    notes.append(
-        f"Most common condition is {top_condition} "
-        f"({top_count} of {len(items)} listings)."
-    )
-
-    if free_shipping:
-        notes.append(f"{free_shipping} of {len(items)} listings offer free shipping.")
-
-    return notes
+    else:
+        result["note"] = (
+            f"Fewer than {MIN_SAMPLE} comparables: low confidence. No p25/median "
+            "given; show these prices and give no 'what to pay' or bid figure."
+        )
+    return result
