@@ -41,7 +41,7 @@ cp .env.example .env   # then fill in the keys and your postcode
 | `EBAY_ITEM_LOCATION_COUNTRY` | marketplace country | Only items located here; `ANY` disables. |
 | `EBAY_DELIVERY_COUNTRY` | none | Buyer country for postage. |
 | `EBAY_DELIVERY_POSTAL_CODE` | none | Buyer postcode for postage (private). |
-| `MCP_AUTH_TOKEN` | none | Bearer token for the HTTP transport (≥32 chars). |
+| `MCP_AUTH_TOKEN` | none | Bearer token (≥32 chars). Required for local HTTP mode; leave unset on Horizon. |
 | `EBAY_TIMEOUT` / `EBAY_MAX_RETRIES` | `20` / `3` | Network tuning. |
 
 Keys live only in the environment (or a git-ignored `.env`).
@@ -91,26 +91,36 @@ Tests never call eBay. They run the client, the parsing and the MCP tools (in me
 and over the HTTP app) against real responses saved in `tests/fixtures/`. To refresh
 the fixtures, re-run the `--raw` commands above and save their output there.
 
-## Deploy to FastMCP Cloud
+## Deploy to Prefect Horizon
 
-Not deployed yet. To do it:
+Horizon deploys from `main`:
 
-1. Push this repository to GitHub.
-2. In [FastMCP Cloud](https://fastmcp.cloud), create a project from the repo with the
-   entrypoint `src/ebay_mcp/cloud.py:mcp`. Dependencies install from `pyproject.toml`.
-3. Set environment variables in the project: `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET`,
-   `EBAY_MARKETPLACE_ID`, `EBAY_DELIVERY_COUNTRY`, `EBAY_DELIVERY_POSTAL_CODE` and
-   `MCP_AUTH_TOKEN`.
-4. Leave the platform's own authentication off. The server enforces the bearer token
-   itself, and `cloud.py` fails at import if `MCP_AUTH_TOKEN` is missing, so it can't
-   come up open.
-5. Connect from Claude with the deployment's `/mcp` URL and the header
-   `Authorization: Bearer <MCP_AUTH_TOKEN>`.
+1. Create a project from this GitHub repo with the entrypoint
+   `src/ebay_mcp/cloud.py:mcp`. Dependencies install from `pyproject.toml`.
+2. Set these environment variables in the project: `EBAY_CLIENT_ID`,
+   `EBAY_CLIENT_SECRET`, `EBAY_MARKETPLACE_ID`, `EBAY_DELIVERY_COUNTRY` and
+   `EBAY_DELIVERY_POSTAL_CODE`.
+3. **Do not set `MCP_AUTH_TOKEN` on Horizon.** Horizon's OAuth protects the endpoint
+   and proxies requests to the container without a token the server could check, so an
+   app-level token would reject every request (`invalid_token`, 401 on every
+   `POST /mcp`). Horizon's OAuth can't be switched off on the free tier, so the
+   endpoint is never open.
+4. Connect from Claude with the deployment's `/mcp` URL and sign in through Horizon's
+   OAuth.
+
+How `cloud.py` handles auth:
+
+- `MCP_AUTH_TOKEN` unset: no app-level auth. It logs one line,
+  `MCP_AUTH_TOKEN not set: no app-level auth; relying on the hosting platform's auth.`
+- `MCP_AUTH_TOKEN` set: enforced as a bearer token (32+ characters), the same as local
+  HTTP mode. Use this only on a host with no auth of its own in front of the server.
+
+Local HTTP mode (`mcp-ebay serve --transport http`) always requires the token.
 
 To check that the entrypoint loads the way the platform loads it:
 
 ```bash
-MCP_AUTH_TOKEN=… uv run fastmcp inspect src/ebay_mcp/cloud.py:mcp
+uv run fastmcp inspect src/ebay_mcp/cloud.py:mcp
 ```
 
 ## Layout
@@ -121,7 +131,7 @@ MCP_AUTH_TOKEN=… uv run fastmcp inspect src/ebay_mcp/cloud.py:mcp
 - `models.py`: listing summary/details parsing (postage, auction fields).
 - `analysis.py`: pure functions: true-total budget check, location re-check, comparables statistics.
 - `instructions.py`: how Claude should hunt for deals, served as the MCP instructions.
-- `server.py`: the three tools. `http_auth.py`: bearer-token verifier. `cloud.py`: FastMCP Cloud entrypoint.
+- `server.py`: the three tools. `http_auth.py`: bearer-token verifier. `cloud.py`: Horizon entrypoint.
 - `cli.py`: the `mcp-ebay` command.
 
 ## Limits
