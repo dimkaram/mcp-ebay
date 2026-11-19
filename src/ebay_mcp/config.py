@@ -29,6 +29,33 @@ class ConfigError(RuntimeError):
     """Raised when the configuration is missing values required to make a call."""
 
 
+# Marketplace -> country of its home listings, used as the default item location.
+_MARKETPLACE_COUNTRY = {
+    "EBAY_GB": "GB",
+    "EBAY_US": "US",
+    "EBAY_DE": "DE",
+    "EBAY_FR": "FR",
+    "EBAY_IT": "IT",
+    "EBAY_ES": "ES",
+    "EBAY_AU": "AU",
+    "EBAY_CA": "CA",
+}
+
+
+def _location_country(marketplace_id: str) -> str | None:
+    """Resolve ``EBAY_ITEM_LOCATION_COUNTRY``; defaults to the marketplace's country.
+
+    Set it to ``ANY`` to search listings located anywhere.
+    """
+
+    raw = os.environ.get("EBAY_ITEM_LOCATION_COUNTRY", "").strip().upper()
+    if raw == "ANY":
+        return None
+    if raw:
+        return raw
+    return _MARKETPLACE_COUNTRY.get(marketplace_id)
+
+
 def _env_float(name: str, default: float) -> float:
     raw = os.environ.get(name)
     if not raw:
@@ -56,7 +83,7 @@ class Config:
     client_id: str
     client_secret: str
     environment: str = "production"
-    marketplace_id: str = "EBAY_US"
+    marketplace_id: str = "EBAY_GB"
     scopes: tuple[str, ...] = (DEFAULT_SCOPE,)
     # Network behaviour.
     timeout: float = 20.0
@@ -67,6 +94,9 @@ class Config:
     # delivery for the calling buyer (improves shipping cost accuracy).
     delivery_country: str | None = None
     delivery_postal_code: str | None = None
+    # Only return items located in this ISO country (eBay ``itemLocationCountry``
+    # filter, re-checked in code). ``None`` disables the restriction.
+    item_location_country: str | None = None
     _extra: dict[str, str] = field(default_factory=dict, repr=False, compare=False)
 
     @classmethod
@@ -87,17 +117,19 @@ class Config:
         scope_raw = os.environ.get("EBAY_OAUTH_SCOPES")
         scopes = tuple(scope_raw.split()) if scope_raw else (DEFAULT_SCOPE,)
 
+        marketplace_id = os.environ.get("EBAY_MARKETPLACE_ID", "EBAY_GB").strip()
         return cls(
             client_id=os.environ.get("EBAY_CLIENT_ID", "").strip(),
             client_secret=os.environ.get("EBAY_CLIENT_SECRET", "").strip(),
             environment=environment,
-            marketplace_id=os.environ.get("EBAY_MARKETPLACE_ID", "EBAY_US").strip(),
+            marketplace_id=marketplace_id,
             scopes=scopes,
             timeout=_env_float("EBAY_TIMEOUT", 20.0),
             max_retries=_env_int("EBAY_MAX_RETRIES", 3),
             token_leeway=_env_float("EBAY_TOKEN_LEEWAY", 60.0),
             delivery_country=os.environ.get("EBAY_DELIVERY_COUNTRY") or None,
             delivery_postal_code=os.environ.get("EBAY_DELIVERY_POSTAL_CODE") or None,
+            item_location_country=_location_country(marketplace_id),
         )
 
     @property

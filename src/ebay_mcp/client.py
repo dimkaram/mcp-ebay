@@ -16,13 +16,14 @@ from __future__ import annotations
 
 import asyncio
 from typing import Any
+from urllib.parse import quote
 
 import httpx
 
 from .auth import TokenManager
 from .config import Config
 from .errors import EbayAPIError, EbayError
-from .models import Item, SearchResult
+from .models import Listing, ListingDetails, SearchResult
 
 # Map friendly sort keys to the Browse API's sort grammar.
 _SORT_MAP = {
@@ -33,13 +34,20 @@ _SORT_MAP = {
     "ending_soonest": "endingSoonest",
 }
 
-# Map friendly condition keys to Browse API condition enum values.
-_CONDITION_MAP = {
-    "new": "NEW",
-    "used": "USED",
-    "certified_refurbished": "CERTIFIED_REFURBISHED",
-    "seller_refurbished": "SELLER_REFURBISHED",
-    "open_box": "NEW_OTHER",
+# Friendly condition groups -> eBay condition ids (``conditionIds`` filter).
+CONDITION_GROUPS: dict[str, tuple[str, ...]] = {
+    "new": ("1000",),
+    "new_other": ("1500", "1750"),  # open box / new other, new with defects
+    "refurbished": ("2000", "2010", "2020", "2030", "2500"),
+    "used": ("2750", "3000", "4000", "5000", "6000"),  # like new .. acceptable
+    "for_parts": ("7000",),
+}
+
+# Friendly buying formats -> eBay ``buyingOptions`` values.
+BUYING_FORMATS: dict[str, tuple[str, ...]] = {
+    "any": (),
+    "buy_it_now": ("FIXED_PRICE",),
+    "auction": ("AUCTION",),
 }
 
 # eBay caps a single Browse search page at 200 items.
@@ -78,16 +86,18 @@ class EbayClient:
         query: str,
         *,
         limit: int = 50,
-        offset: int = 0,
         sort: str = "best_match",
-        condition: str | None = None,
-        min_price: float | None = None,
-        max_price: float | None = None,
-        buying_options: list[str] | None = None,
-        category_ids: str | None = None,
-        free_shipping_only: bool = False,
+        conditions: list[str] | None = None,
+        buying_format: str = "any",
+        max_item_price: float | None = None,
+        location_country: str | None = None,
     ) -> SearchResult:
-        """Search active listings via ``item_summary/search``."""
+        """Search active listings via ``item_summary/search``.
+
+        ``max_item_price`` is sent as eBay's price filter, which caps the item
+        price (current bid for auctions) and ignores postage: callers must check
+        the true total themselves.
+        """
 
         if not query or not query.strip():
             raise EbayError("Search query must be a non-empty string.")
@@ -97,20 +107,15 @@ class EbayClient:
         params: dict[str, Any] = {
             "q": query.strip(),
             "limit": max(1, min(int(limit), MAX_PAGE_LIMIT)),
-            "offset": max(0, int(offset)),
         }
         sort_value = _SORT_MAP[sort]
         if sort_value:
             params["sort"] = sort_value
-        if category_ids:
-            params["category_ids"] = category_ids
-
-        filters = self._build_filters(
-            condition=condition,
-            min_price=min_price,
-            max_price=max_price,
-            buying_options=buying_options,
-            free_shipping_only=free_shipping_only,
+        filters = self.build_filters(
+            conditions=conditions,
+            buying_format=buying_format,
+            max_item_price=max_item_price,
+            location_country=location_country,
         )
         if filters:
             params["filter"] = filters
@@ -118,49 +123,59 @@ class EbayClient:
         data = await self._get("/item_summary/search", params=params)
         return SearchResult.from_api(data)
 
-    async def get_item(self, item_id: str) -> Item:
-        """Fetch full details for a single item by its eBay item id."""
+    async def get_item(self, item_id: str) -> ListingDetails:
+        """Fetch the full listing (description, specifics, returns) by item id."""
 
-        if not item_id or not item_id.strip():
-            raise EbayError("item_id must be a non-empty string.")
-        data = await self._get(f"/item/{item_id.strip()}")
-        return Item.from_api(data)
+        return ListingDetails.from_api(await self._get(_item_path(item_id)))
+
+    async def get_listing(self, item_id: str) -> Listing:
+        """Fetch one listing and keep only the summary-level fields."""
+
+        return Listing.from_api(await self._get(_item_path(item_id)))
 
     # -- filter / header construction --------------------------------------
 
-    def _build_filters(
+    def build_filters(
         self,
         *,
-        condition: str | None,
-        min_price: float | None,
-        max_price: float | None,
-        buying_options: list[str] | None,
-        free_shipping_only: bool,
+        conditions: list[str] | None = None,
+        buying_format: str = "any",
+        max_item_price: float | None = None,
+        location_country: str | None = None,
     ) -> str:
         """Assemble eBay's comma-separated ``filter`` query value."""
 
         clauses: list[str] = []
 
-        price_clause = _price_filter(min_price, max_price)
-        if price_clause:
-            clauses.append(price_clause)
+        if max_item_price is not None:
+            if max_item_price <= 0:
+                raise EbayError("max_total must be greater than zero.")
+            clauses.append(f"price:[..{float(max_item_price):g}]")
             # priceCurrency is required by eBay whenever a price filter is set.
             clauses.append(f"priceCurrency:{_marketplace_currency(self._config.marketplace_id)}")
 
-        if condition:
-            mapped = _CONDITION_MAP.get(condition.lower())
-            if not mapped:
-                raise EbayError(
-                    f"Unknown condition {condition!r}; expected one of {sorted(_CONDITION_MAP)}."
-                )
-            clauses.append(f"conditions:{{{mapped}}}")
+        if conditions:
+            ids: list[str] = []
+            for key in conditions:
+                group = CONDITION_GROUPS.get(key.strip().lower())
+                if group is None:
+                    raise EbayError(
+                        f"Unknown condition {key!r}; expected any of {sorted(CONDITION_GROUPS)}."
+                    )
+                ids.extend(i for i in group if i not in ids)
+            clauses.append("conditionIds:{" + "|".join(ids) + "}")
 
-        if buying_options:
-            options = "|".join(opt.upper() for opt in buying_options)
-            clauses.append(f"buyingOptions:{{{options}}}")
+        fmt = (buying_format or "any").strip().lower()
+        if fmt not in BUYING_FORMATS:
+            raise EbayError(
+                f"Unknown buying_format {buying_format!r}; "
+                f"expected one of {sorted(BUYING_FORMATS)}."
+            )
+        if BUYING_FORMATS[fmt]:
+            clauses.append("buyingOptions:{" + "|".join(BUYING_FORMATS[fmt]) + "}")
 
-        if free_shipping_only:
-            clauses.append("maxDeliveryCost:0")
+        if location_country:
+            clauses.append(f"itemLocationCountry:{location_country.upper()}")
 
         return ",".join(clauses)
 
@@ -249,14 +264,10 @@ def _api_error(response: httpx.Response) -> EbayAPIError:
     return EbayAPIError(response.status_code, message, errors=errors)
 
 
-def _price_filter(min_price: float | None, max_price: float | None) -> str | None:
-    """Render a price range into eBay's ``price:[lo..hi]`` clause."""
-
-    if min_price is None and max_price is None:
-        return None
-    lo = "" if min_price is None else f"{float(min_price):g}"
-    hi = "" if max_price is None else f"{float(max_price):g}"
-    return f"price:[{lo}..{hi}]"
+def _item_path(item_id: str) -> str:
+    if not item_id or not item_id.strip():
+        raise EbayError("item_id must be a non-empty string.")
+    return "/item/" + quote(item_id.strip(), safe="|")
 
 
 # Default transactional currency per marketplace; used for the priceCurrency
@@ -281,9 +292,10 @@ def _marketplace_currency(marketplace_id: str) -> str:
 def _delivery_context(config: Config) -> str | None:
     """Build the X-EBAY-C-ENDUSERCTX header for delivery-aware pricing."""
 
-    parts = []
-    if config.delivery_country:
-        parts.append(f"contextualLocation=country%3D{config.delivery_country}")
-        if config.delivery_postal_code:
-            parts[-1] += f"%2Czip%3D{config.delivery_postal_code}"
-    return ",".join(parts) if parts else None
+    if not config.delivery_country:
+        return None
+    location = f"country={config.delivery_country}"
+    if config.delivery_postal_code:
+        location += f",zip={config.delivery_postal_code}"
+    # The header value is itself URL-encoded (postcodes may contain spaces).
+    return "contextualLocation=" + quote(location, safe="")
