@@ -139,7 +139,8 @@ def build_server(
         count, end time and time left. They do NOT include item specifics,
         return terms or the description: use get_listing_details for those.
         With max_total, listings are checked against the true total (item +
-        postage); ones whose postage is unknown are kept and marked.
+        postage); each kept listing has ``budget``: "within", or
+        "postage_unknown" when the item price fits but the total is unverified.
         """
 
         try:
