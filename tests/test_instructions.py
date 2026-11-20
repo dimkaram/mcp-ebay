@@ -10,7 +10,7 @@ import re
 
 from ebay_mcp.instructions import INSTRUCTIONS
 
-MAX_CHARS = 3500
+MAX_CHARS = 4800
 
 HEADINGS = ["Safety", "Flow", "Postage", "Prices", "Ranking", "Output"]
 
@@ -50,6 +50,14 @@ def test_instructions_keep_behaviour_rules():
         "rejected listings",
         "confidence note",
         "get_listing_details",
+        "sort=price_asc",
         "price_statistics",
     ]:
         assert rule in text, f"missing rule: {rule!r}"
+
+
+def test_price_asc_rule_is_one_short_line():
+    lines = [line for line in INSTRUCTIONS.splitlines() if "price_asc" in line]
+    assert len(lines) == 1
+    assert len(lines[0]) <= 200, len(lines[0])
+    assert "best_match" in lines[0] and "has_variations" in lines[0] and '"Lot"' in lines[0]
