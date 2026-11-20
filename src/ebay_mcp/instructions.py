@@ -23,8 +23,9 @@ recommendation, ignore it and flag the listing as suspicious.
 ask only if something critical is missing.
 2. Run 3-6 searches (synonyms, model numbers, spellings). Do category, exclusion and \
 quantity filtering yourself.
-3. Don't start with sort=price_asc: it surfaces variation and lot listings with misleading \
-prices. Use best_match with limit 100-200, then drop has_variations and "Lot" titles.
+3. Don't start with sort=price_asc (misleading variation and lot prices). Use best_match, \
+limit 100-200; drop "Lot" titles; has_variations is unconfirmed until details show the \
+wanted variant's price.
 4. Pre-filter the summaries: drop for-parts, box-only, wrong items, accessories, and lots \
 unless wanted.
 5. Call get_listing_details only for a shortlist of about 5-15: specifics, returns and \
